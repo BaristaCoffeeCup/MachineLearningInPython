@@ -1,0 +1,443 @@
+{
+	"decisionRules": [{
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["chargingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "confirmcharging",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"apiInputs": [],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "askConfirmationofCharging",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["chargingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "confirmcharging",
+			"condition": "EqualsMatcher",
+			"arguments": ["true"]
+		}],
+		"apiInputs": [{
+			"slotName": "confirmcharging_finalresult",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "to_confirm_charging",
+		"systemAction": "",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["chargingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "confirmcharging",
+			"condition": "EqualsMatcher",
+			"arguments": ["false"]
+		}],
+		"apiInputs": [{
+			"slotName": "confirmcharging_finalresult",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "to_deny_charging",
+		"systemAction": "",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["chargingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "confirmcharging_finalresult",
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "askConfirmationofCharging",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["chargingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "confirmcharging_finalresult",
+			"condition": "EqualsMatcher",
+			"arguments": ["true"]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "confirmedCharging",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["chargingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "confirmcharging_finalresult",
+			"condition": "EqualsMatcher",
+			"arguments": ["false"]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "deniedCharging",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["parkingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "confirmparking",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"apiInputs": [],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "askConfirmationofParking",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["parkingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "confirmparking",
+			"condition": "EqualsMatcher",
+			"arguments": ["true"]
+		}],
+		"apiInputs": [{
+			"slotName": "confirmparking_finalresult",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "to_confirm_parking",
+		"systemAction": "",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["parkingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "confirmparking",
+			"condition": "EqualsMatcher",
+			"arguments": ["false"]
+		}],
+		"apiInputs": [{
+			"slotName": "confirmparking_finalresult",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "to_deny_parking",
+		"systemAction": "",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["parkingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "confirmparking_finalresult",
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "askConfirmationofParking",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["parkingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "confirmparking_finalresult",
+			"condition": "EqualsMatcher",
+			"arguments": ["true"]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "confirmedParking",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["parkingrecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "confirmparking_finalresult",
+			"condition": "EqualsMatcher",
+			"arguments": ["false"]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "deniedParking",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["betterrouterecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "confirmbetterroute",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"apiInputs": [],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "askConfirmationofBetterroute",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["betterrouterecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "confirmbetterroute",
+			"condition": "EqualsMatcher",
+			"arguments": ["true"]
+		}],
+		"apiInputs": [{
+			"slotName": "confirmbetterroute_finalresult",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "to_confirm_betterroute",
+		"systemAction": "",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["betterrouterecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "confirmbetterroute",
+			"condition": "EqualsMatcher",
+			"arguments": ["false"]
+		}],
+		"apiInputs": [{
+			"slotName": "confirmbetterroute_finalresult",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "to_deny_betterroute",
+		"systemAction": "",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["betterrouterecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "confirmbetterroute_finalresult",
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "askConfirmationofBetterroute",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["betterrouterecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "confirmbetterroute_finalresult",
+			"condition": "EqualsMatcher",
+			"arguments": ["true"]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "confirmedBetterroute",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["betterrouterecommendation"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "confirmbetterroute_finalresult",
+			"condition": "EqualsMatcher",
+			"arguments": ["false"]
+		}],
+		"metadata": [],
+		"context": [],
+		"apiAction": "",
+		"systemAction": "deniedBetterroute",
+		"module": {
+			"name": "parkingrecommendation",
+			"comments": ""
+		}
+	}],
+	"volatile": false,
+	"domain": "ChinaProactiveDomain"
+}

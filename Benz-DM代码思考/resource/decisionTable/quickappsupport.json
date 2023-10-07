@@ -1,0 +1,33 @@
+{
+	"decisionRules": [{
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["opentencentvideo"]
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "hasresponsedata",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [],
+		"apiAction": "QuickAppAPICall",
+		"systemAction": ""
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["opentencentvideo"]
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "hasresponsedata",
+			"condition": "CollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [],
+		"apiAction": "",
+		"systemAction": "successTTSResponse"
+	}],
+	"volatile": false,
+	"domain": "quickappsupport"
+}

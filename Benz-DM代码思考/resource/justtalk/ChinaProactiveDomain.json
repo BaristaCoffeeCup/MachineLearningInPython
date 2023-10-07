@@ -1,0 +1,16 @@
+{
+	"justtalk": [{
+		"intentName": "parkingrecommendation",
+		"justtalk": false,
+		"arbitration": "cloud"
+	}, {
+		"intentName": "chargingrecommendation",
+		"justtalk": false,
+		"arbitration": "cloud"
+	}, {
+		"intentName": "betterrouterecommendation",
+		"justtalk": false,
+		"arbitration": "cloud"
+	}],
+	"domain": "ChinaProactiveDomain"
+}

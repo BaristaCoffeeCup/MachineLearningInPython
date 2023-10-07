@@ -1,0 +1,57 @@
+{
+	"nluInterpretations": [{
+		"intent": "opentencentvideo",
+		"samples": [{
+			"sample": "帮我跳转到腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "我想要跳转到腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "我想跳转到腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "跳转到腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "我想要切换到腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "我想切换到腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "帮我切换到腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "切换到腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "我想要显示腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "我想显示腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "帮我显示腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "显示腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "打开腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "我想要打开腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "我想打开腾讯视频",
+			"sampleValues": []
+		}, {
+			"sample": "帮我打开腾讯视频",
+			"sampleValues": []
+		}],
+		"expressions": []
+	}],
+	"userInputs": [],
+	"domain": "quickappsupport"
+}

@@ -1,0 +1,21 @@
+{
+    "apiActions": [
+        {
+            "name": "fpmapicall",
+            "path": "http://domain-handler.chinaspeech-npr.svc.cluster.local/domains/fpm/dialogue_info",
+            "requiredAuthLevel": 2
+        }
+    ],
+    "domain": "chinafireplace",
+    "systemActions": [
+        {
+            "dialogAct": {
+                "dialogActType": "giveInformation"
+            },
+            "name": "TtsResponse",
+            "ttsResponse": [
+                "TtsResponse"
+            ]
+        }
+    ]
+}

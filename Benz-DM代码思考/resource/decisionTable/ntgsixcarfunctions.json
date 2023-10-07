@@ -1,0 +1,111 @@
+{
+	"decisionRules": [{
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["extendedCarFunction"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [],
+		"metadata": [],
+		"apiAction": "",
+		"systemAction": "ntgsix_answer",
+		"row-number": 1
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["open"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "windowroof",
+			"condition": "EqualsMatcher",
+			"arguments": ["window"]
+		}],
+		"apiInputs": [],
+		"metadata": [],
+		"apiAction": "",
+		"systemAction": "window_answer",
+		"row-number": 1
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["close"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "windowroof",
+			"condition": "EqualsMatcher",
+			"arguments": ["window"]
+		}],
+		"apiInputs": [],
+		"metadata": [],
+		"apiAction": "",
+		"systemAction": "window_answer",
+		"row-number": 2
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["open"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "windowroof",
+			"condition": "EqualsMatcher",
+			"arguments": ["roof"]
+		}],
+		"apiInputs": [],
+		"metadata": [],
+		"apiAction": "",
+		"systemAction": "roof_answer",
+		"row-number": 3
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["close"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [{
+			"slotName": "windowroof",
+			"condition": "EqualsMatcher",
+			"arguments": ["roof"]
+		}],
+		"apiInputs": [],
+		"metadata": [],
+		"apiAction": "",
+		"systemAction": "roof_answer",
+		"row-number": 4
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["close", "open", "extendedCarFunction"]
+		},
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"userInputs": [],
+		"apiInputs": [],
+		"metadata": [],
+		"apiAction": "",
+		"systemAction": "DaimlerUnsupportedAction",
+		"row-number": 4
+	}],
+	"volatile": false,
+	"domain": "ntgsixcarfunctions"
+}

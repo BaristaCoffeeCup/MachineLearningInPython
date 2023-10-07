@@ -1,0 +1,10 @@
+{
+    "domain": "chinafireplace",
+    "justtalk": [
+        {
+            "arbitration": "cloud",
+            "intentName": "fireplace",
+            "justtalk": true
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+	"ontology": {
+		"intents": {
+			"opentencentvideo": {
+				"slotOnly": false,
+				"dialogActType": "inform"
+			}
+		},
+		"userInputs": {},
+		"apiInputs": {
+			"hasresponsedata": {
+				"volatile": false
+			}
+		}
+	},
+	"domain": "quickappsupport"
+}

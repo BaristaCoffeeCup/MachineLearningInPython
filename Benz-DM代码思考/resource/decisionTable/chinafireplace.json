@@ -1,0 +1,56 @@
+{
+    "decisionRules": [
+        {
+            "apiAction": "fpmapicall",
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "NotCollectedMatcher",
+                    "slotName": "hasfpmdata"
+                }
+            ],
+            "module": {
+                "name": "fpm"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 1,
+            "userInputs": [],
+            "userIntent": {
+                "arguments": [
+                    "fireplace"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "CollectedMatcher",
+                    "slotName": "hasfpmdata"
+                }
+            ],
+            "module": {
+                "name": "fpm"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 2,
+            "systemAction": "TtsResponse",
+            "userInputs": [],
+            "userIntent": {
+                "arguments": [
+                    "fireplace"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        }
+    ],
+    "domain": "chinafireplace",
+    "volatile": false
+}

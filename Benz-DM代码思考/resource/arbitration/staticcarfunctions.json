@@ -1,0 +1,12 @@
+{
+    "arbitration": {
+        "activate": "cloud",
+        "carfunctionvariations": "cloud",
+        "close": "cloud",
+        "deactivate": "cloud",
+        "fold": "cloud",
+        "lock": "cloud",
+        "open": "cloud"
+    },
+    "domain": "staticcarfunctions"
+}

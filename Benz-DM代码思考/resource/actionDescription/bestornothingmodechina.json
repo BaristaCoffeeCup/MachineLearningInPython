@@ -1,0 +1,26 @@
+{
+	"systemActions": [{
+		"name": "ttsresponse",
+		"ttsResponse": ["ttsresponse"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"clientBehaviorDirectives": {}
+	}, {
+		"name": "ttsresponseforbackseats",
+		"ttsResponse": ["ttsresponseforbackseats"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		}
+	}],
+	"apiActions": [{
+		"name": "BONapicall",
+		"path": "https://sds.dvb.corpinter.net.cn/domains/bon/dialogue_info",
+		"domain": "",
+		"requiredAuthLevel": 2,
+		"comments": "as"
+	}],
+	"domain": "bestornothingmodechina"
+}

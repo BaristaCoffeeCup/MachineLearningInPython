@@ -1,0 +1,290 @@
+{
+    "domain": "expMe",
+    "justtalk": [
+        {
+            "arbitration": "cloud",
+            "intentName": "chargingTypeSupported",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "clock_instrConfigure",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "def",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "drivePilot_available",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "drivePilot_IsOff",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "drivePilot_IsOn",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "drivePilot_rules",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "drivePilot_statuslight",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "drivePilot_troubleshoot",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "drivePilot_when",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "engineLight_checkReason",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "evCharging_howTo",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "evCharging_instrStart",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "evCharging_instrStop",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "evChargingCable_instrPlugIn",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "evChargingCable_instrUnplug",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "evChargingPlugs_which",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "evChargingStandards_which",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "evChargingStation_instrAccess",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "evChargingStation_which",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "exists",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "exteriorMirrors_instrFold",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "fuelTankFlap_loc",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "horn_instrActivate",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrAccess",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrActivate",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrAuthorise",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrCharge",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrClose",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrConfigure",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrConnect",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrDeactivate",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrDisconnect",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrEinstellen",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrOpen",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "instrUse",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "ladenHowto",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "linguatronic_help",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "loc",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "plugTypeSupported",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "radio_troubleshoot",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "steckerSupported",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "tirePressure_info",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "trailerCoupling_instrExtendRetract",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "troubleshoot",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "which",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "maxHorsepower_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "acceleration_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "fuelType_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "height_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "length_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "weight_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "width_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "fuelTankVolume_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "maxSpeed_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "model_carspec",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "payload_carspec",
+            "justtalk": false
+        }
+    ]
+}

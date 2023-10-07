@@ -1,0 +1,14 @@
+{
+    "domain": "EmbeddedNaviLocationRyan",
+    "nluInterpretations": [
+        {
+            "expressions": [],
+            "intent": "test"
+        },
+        {
+            "expressions": [],
+            "intent": "jadids"
+        }
+    ],
+    "userInputs": []
+}

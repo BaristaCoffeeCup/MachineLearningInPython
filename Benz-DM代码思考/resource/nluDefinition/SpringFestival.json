@@ -1,0 +1,505 @@
+{
+	"nluInterpretations": [{
+		"intent": "wishkeyselection",
+		"slotOnly": false,
+		"samples": [{
+			"sample": "新年许愿",
+			"sampleValues": []
+		}, {
+			"sample": "许个愿",
+			"sampleValues": []
+		}, {
+			"sample": "我要许个新年愿望",
+			"sampleValues": []
+		}, {
+			"sample": "春节快乐",
+			"sampleValues": []
+		}, {
+			"sample": "新春祝福",
+			"sampleValues": []
+		}, {
+			"sample": "新春快乐",
+			"sampleValues": []
+		}, {
+			"sample": "新年大吉",
+			"sampleValues": []
+		}, {
+			"sample": "牛年大吉",
+			"sampleValues": []
+		}, {
+			"sample": "新年祝福",
+			"sampleValues": []
+		}, {
+			"sample": "过年好",
+			"sampleValues": []
+		}, {
+			"sample": "新年好",
+			"sampleValues": []
+		}, {
+			"sample": "我的新年愿望",
+			"sampleValues": []
+		}, {
+			"sample": "许愿",
+			"sampleValues": []
+		}, {
+			"sample": "想许个愿望",
+			"sampleValues": []
+		}, {
+			"sample": "我想许个愿望",
+			"sampleValues": []
+		}, {
+			"sample": "我要许愿",
+			"sampleValues": []
+		}, {
+			"sample": "我想许个新年愿望",
+			"sampleValues": []
+		}, {
+			"sample": "我想许愿",
+			"sampleValues": []
+		}, {
+			"sample": "新年愿望",
+			"sampleValues": []
+		}, {
+			"sample": "我奔驰心愿",
+			"sampleValues": []
+		}, {
+			"sample": "打开奔驰心愿",
+			"sampleValues": []
+		}, {
+			"sample": "新年梦想",
+			"sampleValues": []
+		}, {
+			"sample": "新年心愿",
+			"sampleValues": []
+		}, {
+			"sample": "奔驰梦想",
+			"sampleValues": []
+		}, {
+			"sample": "奔驰的心愿",
+			"sampleValues": []
+		}, {
+			"sample": "my mercedes wish",
+			"sampleValues": []
+		}, {
+			"sample": "mercedes wish",
+			"sampleValues": []
+		}, {
+			"sample": "我的新春梦想",
+			"sampleValues": []
+		}, {
+			"sample": "我的奔驰心愿",
+			"sampleValues": []
+		}, {
+			"sample": "新春梦想",
+			"sampleValues": []
+		}, {
+			"sample": "奔驰心愿",
+			"sampleValues": []
+		}],
+		"expressions": []
+	}, {
+		"intent": "slot_wishkey",
+		"slotOnly": true,
+		"samples": [{
+			"sample": "我的梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "今年我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "我的新年心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "我的新年愿望是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "我的新年梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "我的心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "我想$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "愿$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "万 事 如 意"
+			}]
+		}, {
+			"sample": "我的梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "今年我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "我的新年心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "我的新年愿望是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "我的新年梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "我的心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "我想$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "愿$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "步 步 高 升"
+			}]
+		}, {
+			"sample": "我的梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "今年我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "我的新年心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "我的新年愿望是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "我的新年梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "我的心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "我想$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "愿$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "岁 岁 平 安"
+			}]
+		}, {
+			"sample": "我的梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "今年我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "我的新年心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "我的新年愿望是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "我的新年梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "我的心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "我想$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "愿$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "蒸 蒸 日 上"
+			}]
+		}, {
+			"sample": "我的梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "今年我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "我的新年心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "我的新年愿望是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "我的新年梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "我的心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "我想$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "愿$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "前 程 似 锦"
+			}]
+		}, {
+			"sample": "我的梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}, {
+			"sample": "今年我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}, {
+			"sample": "我的新年心愿是前程似锦$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}, {
+			"sample": "我的新年愿望是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}, {
+			"sample": "我的新年梦想是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}, {
+			"sample": "我的心愿是$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}, {
+			"sample": "我要$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}, {
+			"sample": "我想$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}, {
+			"sample": "$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}, {
+			"sample": "愿$(wishkey)",
+			"sampleValues": [{
+				"slotName": "wishkey",
+				"sample": "笑 口 常 开"
+			}]
+		}],
+		"expressions": []
+	}, {
+		"intent": "slot_back",
+		"samples": [{
+			"sample": "$(generic_back)",
+			"sampleValues": [{
+				"slotName": "generic_back",
+				"sample": "返 回"
+			}]
+		}],
+		"expressions": []
+	}],
+	"userInputs": [{
+		"name": "wishkey",
+		"canonicals": [{
+			"canonical": "happiness",
+			"literals": ["笑口常开"]
+		}, {
+			"canonical": "future",
+			"literals": ["前程似锦"]
+		}, {
+			"canonical": "thrive",
+			"literals": ["蒸蒸日上"]
+		}, {
+			"canonical": "promotion",
+			"literals": ["步步高升"]
+		}, {
+			"canonical": "best",
+			"literals": ["万事如意"]
+		}, {
+			"canonical": "safeness",
+			"literals": ["岁岁平安"]
+		}]
+	}, {
+		"name": "generic_back",
+		"canonicals": [{
+			"canonical": "true",
+			"literals": ["返回"]
+		}]
+	}],
+	"domain": "SpringFestival"
+}

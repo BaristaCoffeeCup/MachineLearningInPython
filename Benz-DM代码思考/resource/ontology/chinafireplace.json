@@ -1,0 +1,17 @@
+{
+    "domain": "chinafireplace",
+    "ontology": {
+        "apiInputs": {
+            "hasfpmdata": {
+                "shared": false,
+                "volatile": false
+            }
+        },
+        "intents": {
+            "fireplace": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            }
+        }
+    }
+}

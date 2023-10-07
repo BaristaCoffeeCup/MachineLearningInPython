@@ -1,0 +1,208 @@
+{
+    "additionalResponses": {
+        "text": {},
+        "voice": {}
+    },
+    "audioResponses": {},
+    "domain": "staticcarfunctions",
+    "guiResponses": {},
+    "language": "cmn-CHN",
+    "ttsResponses": {
+        "activeBlindSpotAssist_answer": [
+            "對不起, 無法以語音操作主動盲點輔助。"
+        ],
+        "activeBlindSpotAssist_answer_postTts": [],
+        "activeBlindSpotAssist_answer_preTts": [],
+        "activeBrakeAssist_answer": [
+            "對不起, 無法以語音操作主動煞車輔助。"
+        ],
+        "activeBrakeAssist_answer_postTts": [],
+        "activeBrakeAssist_answer_preTts": [],
+        "activeLaneKeepingAssist_answer": [
+            "對不起, 無法以語音操作主動車道維持輔助。"
+        ],
+        "activeLaneKeepingAssist_answer_postTts": [],
+        "activeLaneKeepingAssist_answer_preTts": [],
+        "antiLockBrakingSystem_answer": [
+            "對不起, 無法以語音操作 A B S。"
+        ],
+        "antiLockBrakingSystem_answer_postTts": [],
+        "antiLockBrakingSystem_answer_preTts": [],
+        "antiTheftAlarmSystem_answer": [
+            "對不起, 無法以語音操作防盜偵測系統。"
+        ],
+        "antiTheftAlarmSystem_answer_postTts": [],
+        "antiTheftAlarmSystem_answer_preTts": [],
+        "attentionAssist_answer": [
+            "對不起, 無法以語音操作注意力輔助。"
+        ],
+        "attentionAssist_answer_postTts": [],
+        "attentionAssist_answer_preTts": [],
+        "automaticDrivingLights_answer": [
+            "對不起, 無法以語音操作自動行車燈。"
+        ],
+        "automaticDrivingLights_answer_postTts": [],
+        "automaticDrivingLights_answer_preTts": [],
+        "bonnet_close_answer": [
+            "對不起, 無法以語音關閉引擎蓋。"
+        ],
+        "bonnet_close_answer_postTts": [],
+        "bonnet_close_answer_preTts": [],
+        "bonnet_open_answer": [
+            "對不起, 無法以語音打開引擎蓋。"
+        ],
+        "bonnet_open_answer_postTts": [],
+        "bonnet_open_answer_preTts": [],
+        "carWashMode_answer": [
+            "對不起, 無法以語音操作洗車模式。"
+        ],
+        "carWashMode_answer_postTts": [],
+        "carWashMode_answer_preTts": [],
+        "centralLockingSystem_answer": [
+            "對不起, 無法以語音操作中控鎖系統。"
+        ],
+        "centralLockingSystem_answer_postTts": [],
+        "centralLockingSystem_answer_preTts": [],
+        "cruiseControl_answer": [
+            "對不起, 無法以語音操作定速器。"
+        ],
+        "cruiseControl_answer_postTts": [],
+        "cruiseControl_answer_preTts": [],
+        "daytimeRunningLight_answer": [
+            "對不起, 無法以語音操作日行燈。"
+        ],
+        "daytimeRunningLight_answer_postTts": [],
+        "daytimeRunningLight_answer_preTts": [],
+        "displayCleaningMode_activate_answer": [
+            "對不起, 無法以語音啟動清潔模式。"
+        ],
+        "displayCleaningMode_activate_answer_postTts": [],
+        "displayCleaningMode_activate_answer_preTts": [],
+        "displayCleaningMode_deactivate_answer": [
+            "對不起, 無法以語音關閉清潔模式。"
+        ],
+        "displayCleaningMode_deactivate_answer_postTts": [],
+        "displayCleaningMode_deactivate_answer_preTts": [],
+        "distronic_answer": [
+            "對不起, 無法以語音操作 Distronic 車距控制系統。"
+        ],
+        "distronic_answer_postTts": [],
+        "distronic_answer_preTts": [],
+        "doors_close_answer": [
+            "對不起, 無法以語音關閉車門。"
+        ],
+        "doors_close_answer_postTts": [],
+        "doors_close_answer_preTts": [],
+        "doors_open_answer": [
+            "對不起, 無法以語音打開車門。"
+        ],
+        "doors_open_answer_postTts": [],
+        "doors_open_answer_preTts": [],
+        "dsr_answer": [
+            "對不起, 無法以語音操作 DSR 下坡輔助控制。"
+        ],
+        "dsr_answer_postTts": [],
+        "dsr_answer_preTts": [],
+        "ecoStartStop_answer": [
+            "對不起, 無法以語音操作 Eco 引擎怠速啟閉功能。"
+        ],
+        "ecoStartStop_answer_postTts": [],
+        "ecoStartStop_answer_preTts": [],
+        "electronicStabilityProgram_answer": [
+            "對不起, 無法以語音操作 E S P。"
+        ],
+        "electronicStabilityProgram_answer_postTts": [],
+        "electronicStabilityProgram_answer_preTts": [],
+        "exteriorMirror_answer": [
+            "對不起, 無法以語音操作車外後視鏡。"
+        ],
+        "exteriorMirror_answer_postTts": [],
+        "exteriorMirror_answer_preTts": [],
+        "fogLamp_answer": [
+            "對不起, 無法以語音操作前霧燈。"
+        ],
+        "fogLamp_answer_postTts": [],
+        "fogLamp_answer_preTts": [],
+        "fuelTankFlap_close_answer": [
+            "對不起, 無法以語音關閉加油口蓋板。"
+        ],
+        "fuelTankFlap_close_answer_postTts": [],
+        "fuelTankFlap_close_answer_preTts": [],
+        "fuelTankFlap_open_answer": [
+            "對不起, 無法以語音打開加油口蓋板。"
+        ],
+        "fuelTankFlap_open_answer_postTts": [],
+        "fuelTankFlap_open_answer_preTts": [],
+        "hazardWarningLamps_answer": [
+            "對不起, 無法以語音操作危險警告燈。"
+        ],
+        "hazardWarningLamps_answer_postTts": [],
+        "hazardWarningLamps_answer_preTts": [],
+        "highBeamHeadlamps_answer": [
+            "對不起, 無法以語音操作遠光燈。"
+        ],
+        "highBeamHeadlamps_answer_postTts": [],
+        "highBeamHeadlamps_answer_preTts": [],
+        "info_function_not_available_in_vehicle_VP_CONCEPT": [
+            "不好意思，本车未配备该功能。",
+            "不好意思，本车没有配备该功能。",
+            "对不起，本车没有配备该功能。",
+            "抱歉，本车没有配备该功能。"
+        ],
+        "lowBeamHeadlamps_answer": [
+            "對不起, 無法以語音操作近光燈。"
+        ],
+        "lowBeamHeadlamps_answer_postTts": [],
+        "lowBeamHeadlamps_answer_preTts": [],
+        "ntgsixanswer": [
+            "對不起, 這項功能無法以語音操作。"
+        ],
+        "ntgsixanswer_postTts": [],
+        "ntgsixanswer_preTts": [],
+        "parkingAssistantParktronic_answer": [
+            "對不起, 無法以語音操作 Parktronic 停車輔助系統附前後雷達。"
+        ],
+        "parkingAssistantParktronic_answer_postTts": [],
+        "parkingAssistantParktronic_answer_preTts": [],
+        "parkingLight_answer": [
+            "對不起, 無法以語音操作駐車燈。"
+        ],
+        "parkingLight_answer_postTts": [],
+        "parkingLight_answer_preTts": [],
+        "rearFogLamp_answer": [
+            "對不起, 無法以語音操作後霧燈。"
+        ],
+        "rearFogLamp_answer_postTts": [],
+        "rearFogLamp_answer_preTts": [],
+        "standingLight_answer": [
+            "對不起, 無法以語音操作停車燈。"
+        ],
+        "standingLight_answer_postTts": [],
+        "standingLight_answer_preTts": [],
+        "steeringAssist_answer": [
+            "對不起, 無法以語音操作主動力轉向輔助。"
+        ],
+        "steeringAssist_answer_postTts": [],
+        "steeringAssist_answer_preTts": [],
+        "trafficSignAssist_answer": [
+            "對不起, 無法以語音操作交通號誌輔助。"
+        ],
+        "trafficSignAssist_answer_postTts": [],
+        "trafficSignAssist_answer_preTts": [],
+        "trunk_close_answer": [
+            "對不起, 無法以語音關閉後車廂。"
+        ],
+        "trunk_close_answer_postTts": [],
+        "trunk_close_answer_preTts": [],
+        "trunk_open_answer": [
+            "對不起, 無法以語音打開後車廂。"
+        ],
+        "trunk_open_answer_postTts": [],
+        "trunk_open_answer_preTts": [],
+        "windshieldWipers_answer": [
+            "對不起, 無法以語音操作擋風玻璃雨刷。"
+        ],
+        "windshieldWipers_answer_postTts": [],
+        "windshieldWipers_answer_preTts": []
+    }
+}

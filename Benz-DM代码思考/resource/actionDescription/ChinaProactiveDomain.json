@@ -1,0 +1,128 @@
+{
+	"systemActions": [{
+		"name": "askConfirmationofParking",
+		"ttsResponse": ["askConfirmationofParking"],
+		"dialogAct": {
+			"dialogActType": "askForInput",
+			"slots": {
+				"comfirmparking": null,
+				"confirmparking": null
+			}
+		},
+		"guiResponse": "askConfirmationofParking",
+		"clientBehaviorDirectives": {
+			"followUp ": true
+		}
+	}, {
+		"name": "confirmedParking",
+		"ttsResponse": ["confirmedParking"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		}
+	}, {
+		"name": "deniedParking",
+		"ttsResponse": ["deniedParking"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		}
+	}, {
+		"name": "askConfirmationofCharging",
+		"ttsResponse": ["askConfirmationofCharging"],
+		"dialogAct": {
+			"dialogActType": "askForInput",
+			"slots": {
+				"confirmcharging": null
+			}
+		},
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "confirmedCharging",
+		"ttsResponse": ["confirmedCharging"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		}
+	}, {
+		"name": "deniedCharging",
+		"ttsResponse": ["deniedCharging"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		}
+	}, {
+		"name": "askConfirmationofBetterroute",
+		"ttsResponse": ["askConfirmationofBetterroute"],
+		"dialogAct": {
+			"dialogActType": "askForInput",
+			"slots": {
+				"confirmbetterroute": null
+			}
+		},
+		"clientBehaviorDirectives": {
+			"followUp": true
+		},
+		"guiResponse": "askConfirmationofBetterroute"
+	}, {
+		"name": "confirmedBetterroute",
+		"ttsResponse": ["confirmedBetterroute"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		}
+	}, {
+		"name": "deniedBetterroute",
+		"ttsResponse": ["deniedBetterroute"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		}
+	}],
+	"apiActions": [{
+		"name": "to_confirm_parking",
+		"path": "https://sds.dvb.corpinter.net.cn/domains/proactivity/to_confirm_parking",
+		"handler": "default",
+		"domain": "",
+		"requiredAuthLevel": 2,
+		"comments": ""
+	}, {
+		"name": "to_deny_parking",
+		"path": "https://sds.dvb.corpinter.net.cn/domains/proactivity/to_deny_parking",
+		"handler": "default",
+		"domain": "",
+		"requiredAuthLevel": 2,
+		"comments": ""
+	}, {
+		"name": "to_confirm_charging",
+		"path": "https://sds.dvb.corpinter.net.cn/domains/proactivity/to_confirm_charging",
+		"handler": "default",
+		"domain": "",
+		"requiredAuthLevel": 2,
+		"comments": ""
+	}, {
+		"name": "to_deny_charging",
+		"path": "https://sds.dvb.corpinter.net.cn/domains/proactivity/to_deny_charging",
+		"handler": "default",
+		"domain": "",
+		"requiredAuthLevel": 2,
+		"comments": ""
+	}, {
+		"name": "to_confirm_betterroute",
+		"path": "https://sds.dvb.corpinter.net.cn/domains/proactivity/to_confirm_betterroute",
+		"handler": "default",
+		"domain": "",
+		"requiredAuthLevel": 2,
+		"comments": ""
+	}, {
+		"name": "to_deny_betterroute",
+		"path": "https://sds.dvb.corpinter.net.cn/domains/proactivity/to_deny_betterroute",
+		"handler": "default",
+		"domain": "",
+		"requiredAuthLevel": 2,
+		"comments": ""
+	}],
+	"domain": "ChinaProactiveDomain"
+}

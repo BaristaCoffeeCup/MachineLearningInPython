@@ -1,0 +1,17 @@
+{
+	"systemActions": [{
+		"name": "successTTSResponse",
+		"ttsResponse": ["successTTSResponse"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		}
+	}],
+	"apiActions": [{
+		"name": "QuickAppAPICall",
+		"path": "https://sds-nonprod.dvb.corpinter.net.cn/domains/app/open/tencent_video",
+		"requiredAuthLevel": 0,
+		"comments": ""
+	}],
+	"domain": "quickappsupport"
+}

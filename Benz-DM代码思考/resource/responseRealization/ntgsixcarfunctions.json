@@ -1,0 +1,15 @@
+{
+	"ttsResponses": {
+		"ntgsix_answer": ["抱歉，无法通过语音操作该功能。"],
+		"roof_answer": ["抱歉，无法通过语音操作滑动天窗。"],
+		"window_answer": ["抱歉，无法通过语音操作车窗。"]
+	},
+	"audioResponses": {},
+	"guiResponses": {},
+	"language": "yue-CHS",
+	"additionalResponses": {
+		"voice": {},
+		"text": {}
+	},
+	"domain": "ntgsixcarfunctions"
+}

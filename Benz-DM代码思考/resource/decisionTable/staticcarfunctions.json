@@ -1,0 +1,1452 @@
+{
+    "decisionRules": [
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "oldDomain"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 1,
+            "systemAction": "ntgsixanswer",
+            "userInputs": [],
+            "userIntent": {
+                "arguments": [
+                    "carfunctionvariations"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 2,
+            "systemAction": "antiLockBrakingSystem_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "antiLockBrakingSystem"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 3,
+            "systemAction": "cruiseControl_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "cruiseControl"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 4,
+            "systemAction": "rearFogLamp_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "rearFogLamp"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 5,
+            "systemAction": "lowBeamHeadlamps_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "lowBeamHeadlamps"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 6,
+            "systemAction": "ntgsixanswer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "highBeamHeadlamps"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 7,
+            "systemAction": "windshieldWipers_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "windshieldWipersRear"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 8,
+            "systemAction": "windshieldWipers_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "windshieldWipers"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 9,
+            "systemAction": "hazardWarningLamps_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        [
+                            "hazardWarningLamps"
+                        ]
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 10,
+            "systemAction": "electronicStabilityProgram_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "electronicStabilityProgram"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 11,
+            "systemAction": "trunk_open_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "trunk"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "open"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 12,
+            "systemAction": "trunk_close_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "trunk"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "close"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 13,
+            "systemAction": "fuelTankFlap_open_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "fuelTankFlap"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "open"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 14,
+            "systemAction": "fuelTankFlap_close_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "fuelTankFlap"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "close"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 15,
+            "systemAction": "bonnet_open_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "bonnet"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "open"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 16,
+            "systemAction": "bonnet_close_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "bonnet"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "close"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 17,
+            "systemAction": "centralLockingSystem_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "centralLockingSystem"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 18,
+            "systemAction": "centralLockingSystem_answer",
+            "userInputs": [],
+            "userIntent": {
+                "arguments": [
+                    "lock"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 19,
+            "systemAction": "daytimeRunningLight_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "daytimeRunningLight"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 20,
+            "systemAction": "fogLamp_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "fogLamp"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 21,
+            "systemAction": "parkingLight_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "parkingLight"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 22,
+            "systemAction": "standingLight_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "standingLight"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 23,
+            "systemAction": "exteriorMirror_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "exteriorMirrors"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "slotFold"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "fold"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 24,
+            "systemAction": "displayCleaningMode_activate_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "displayCleaningMode"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 25,
+            "systemAction": "displayCleaningMode_deactivate_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "displayCleaningMode"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [
+                {
+                    "arguments": [
+                        "206"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "carModel"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 26,
+            "systemAction": "doors_open_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "doors"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "open"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [
+                {
+                    "arguments": [
+                        "206"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "carModel"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 27,
+            "systemAction": "doors_close_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "doors"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "close"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "select-answer",
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "NotCollectedMatcher",
+                    "slotName": "select-answer"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 28,
+            "systemAction": "",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "activeBlindSpotAssist",
+                        "activeBrakeAssist",
+                        "activeLaneKeepingAssist",
+                        "antiLockBrakingSystem",
+                        "antiLockBrakingSystem",
+                        "antiTheftAlarmSystem",
+                        "attentionAssist",
+                        "automaticDrivingLights",
+                        "carWashMode",
+                        "cruiseControl",
+                        "distronic",
+                        "distronic",
+                        "dsr",
+                        "ecoStartStop",
+                        "electronicStabilityProgram",
+                        "hazardWarningLamps",
+                        "highBeamHeadlamps",
+                        "lowBeamHeadlamps",
+                        "parkingAssistantParktronic",
+                        "rearFogLamp",
+                        "steeringAssist",
+                        "trafficSignAssist",
+                        "windshieldWipers",
+                        "windshieldWipersRear"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "select-answer",
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "NotCollectedMatcher",
+                    "slotName": "select-answer"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 29,
+            "systemAction": "",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "bonnet",
+                        "fuelTankFlap",
+                        "trunk"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "close",
+                    "open"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "select-answer",
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "NotCollectedMatcher",
+                    "slotName": "select-answer"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 30,
+            "systemAction": "",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "exteriorMirrors",
+                        "headRestraints",
+                        "trailerCoupling"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "slotFold"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "fold"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "CollectedMatcher",
+                    "slotName": "select-answer"
+                },
+                {
+                    "arguments": [
+                        "unavailable"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "answer-id"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 31,
+            "systemAction": "functionNotAvailable_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "activeBlindSpotAssist",
+                        "activeBrakeAssist",
+                        "activeLaneKeepingAssist",
+                        "antiLockBrakingSystem",
+                        "antiLockBrakingSystem",
+                        "antiTheftAlarmSystem",
+                        "attentionAssist",
+                        "automaticDrivingLights",
+                        "carWashMode",
+                        "cruiseControl",
+                        "distronic",
+                        "distronic",
+                        "dsr",
+                        "ecoStartStop",
+                        "electronicStabilityProgram",
+                        "hazardWarningLamps",
+                        "highBeamHeadlamps",
+                        "lowBeamHeadlamps",
+                        "parkingAssistantParktronic",
+                        "rearFogLamp",
+                        "steeringAssist",
+                        "trafficSignAssist",
+                        "windshieldWipers",
+                        "windshieldWipersRear"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "CollectedMatcher",
+                    "slotName": "select-answer"
+                },
+                {
+                    "arguments": [
+                        "unavailable"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "answer-id"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 32,
+            "systemAction": "functionNotAvailable_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "headRestraints",
+                        "trailerCoupling"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "slotFold"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "fold"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "CollectedMatcher",
+                    "slotName": "select-answer"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 33,
+            "systemAction": "ntgsixanswer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "activeBlindSpotAssist",
+                        "activeBrakeAssist",
+                        "activeLaneKeepingAssist",
+                        "antiLockBrakingSystem",
+                        "antiLockBrakingSystem",
+                        "antiTheftAlarmSystem",
+                        "attentionAssist",
+                        "automaticDrivingLights",
+                        "carWashMode",
+                        "cruiseControl",
+                        "distronic",
+                        "distronic",
+                        "dsr",
+                        "ecoStartStop",
+                        "electronicStabilityProgram",
+                        "hazardWarningLamps",
+                        "highBeamHeadlamps",
+                        "lowBeamHeadlamps",
+                        "parkingAssistantParktronic",
+                        "rearFogLamp",
+                        "steeringAssist",
+                        "trafficSignAssist",
+                        "windshieldWipers",
+                        "windshieldWipersRear"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "feature"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "deactivate"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "CollectedMatcher",
+                    "slotName": "select-answer"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 34,
+            "systemAction": "ntgsixanswer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "exteriorMirrors",
+                        "headRestraints",
+                        "trailerCoupling"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "slotFold"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "fold"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [
+                {
+                    "arguments": [],
+                    "condition": "CollectedMatcher",
+                    "slotName": "select-answer"
+                }
+            ],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG7"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 35,
+            "systemAction": "ntgsixanswer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "bonnet",
+                        "fuelTankFlap",
+                        "trunk"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "close",
+                    "open"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG6"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 36,
+            "systemAction": "doors_open_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "doors"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "open"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [
+                {
+                    "arguments": [
+                        "NTG6"
+                    ],
+                    "condition": "ContainsMatcher",
+                    "slotName": "ntgVersion"
+                }
+            ],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 37,
+            "systemAction": "doors_close_answer",
+            "userInputs": [
+                {
+                    "arguments": [
+                        "doors"
+                    ],
+                    "condition": "EqualsMatcher",
+                    "slotName": "topic"
+                }
+            ],
+            "userIntent": {
+                "arguments": [
+                    "close"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        },
+        {
+            "apiAction": "",
+            "apiInputs": [],
+            "context": [],
+            "metadata": [],
+            "module": {
+                "comments": "",
+                "name": "unsupportedCarfunctions"
+            },
+            "request": {
+                "arguments": [],
+                "condition": "NotCollectedMatcher"
+            },
+            "ruleIndex": 38,
+            "systemAction": "DaimlerUnsupportedAction",
+            "userInputs": [],
+            "userIntent": {
+                "arguments": [
+                    "activate",
+                    "close",
+                    "deactivate",
+                    "fold",
+                    "open"
+                ],
+                "condition": "EqualsMatcher"
+            }
+        }
+    ],
+    "domain": "staticcarfunctions"
+}

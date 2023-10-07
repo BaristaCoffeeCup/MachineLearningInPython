@@ -1,0 +1,40 @@
+{
+    "domain": "staticcarfunctions",
+    "justtalk": [
+        {
+            "arbitration": "cloud",
+            "intentName": "activate",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "close",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "deactivate",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "fold",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "lock",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "open",
+            "justtalk": false
+        },
+        {
+            "arbitration": "cloud",
+            "intentName": "carfunctionvariations",
+            "justtalk": false
+        }
+    ]
+}

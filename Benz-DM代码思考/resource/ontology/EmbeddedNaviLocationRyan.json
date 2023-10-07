@@ -1,0 +1,15 @@
+{
+    "domain": "EmbeddedNaviLocationRyan",
+    "ontology": {
+        "intents": {
+            "jadids": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "test": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            }
+        }
+    }
+}

@@ -1,0 +1,644 @@
+{
+    "apiActions": [
+        {
+            "comments": "",
+            "domain": "",
+            "name": "select-answer",
+            "path": "http://exploreme.speech-domain-npr.svc.cluster.local:8080/sdp-no-text",
+            "requiredAuthLevel": 2
+        }
+    ],
+    "domain": "staticcarfunctions",
+    "systemActions": [
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "dh_answer",
+            "ttsResponse": [],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "ntgsixanswer",
+            "ttsResponse": [
+                "ntgsixanswer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "combined_answer",
+            "ttsResponse": [],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "electronicStabilityProgram_answer",
+            "ttsResponse": [
+                "electronicStabilityProgram_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "hazardWarningLamps_answer",
+            "ttsResponse": [
+                "hazardWarningLamps_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "windshieldWipers_answer",
+            "ttsResponse": [
+                "windshieldWipers_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "exteriorMirror_answer",
+            "ttsResponse": [
+                "exteriorMirror_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "trunk_answer",
+            "ttsResponse": [],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "bonnet_answer",
+            "ttsResponse": [],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "highBeamHeadlamps_answer",
+            "ttsResponse": [
+                "highBeamHeadlamps_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "lowBeamHeadlamps_answer",
+            "ttsResponse": [
+                "lowBeamHeadlamps_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "rearFogLamp_answer",
+            "ttsResponse": [
+                "rearFogLamp_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "cruiseControl_answer",
+            "ttsResponse": [
+                "cruiseControl_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "carfunctions_test",
+            "ttsResponse": [],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "antiLockBrakingSystem_answer",
+            "ttsResponse": [
+                "antiLockBrakingSystem_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "centralLockingSystem_answer",
+            "ttsResponse": [
+                "centralLockingSystem_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "daytimeRunningLight_answer",
+            "ttsResponse": [
+                "daytimeRunningLight_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "fogLamp_answer",
+            "ttsResponse": [
+                "fogLamp_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "parkingLight_answer",
+            "ttsResponse": [
+                "parkingLight_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "standingLight_answer",
+            "ttsResponse": [
+                "standingLight_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "displayCleaningMode_activate_answer",
+            "ttsResponse": [
+                "displayCleaningMode_activate_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "displayCleaningMode_deactivate_answer",
+            "ttsResponse": [
+                "displayCleaningMode_deactivate_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "doors_answer",
+            "ttsResponse": [],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "fuelTankFlap_open_answer",
+            "ttsResponse": [
+                "fuelTankFlap_open_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "fuelTankFlap_close_answer",
+            "ttsResponse": [
+                "fuelTankFlap_close_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "doors_open_answer",
+            "ttsResponse": [
+                "doors_open_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "doors_close_answer",
+            "ttsResponse": [
+                "doors_close_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "bonnet_open_answer",
+            "ttsResponse": [
+                "bonnet_open_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "bonnet_close_answer",
+            "ttsResponse": [
+                "bonnet_close_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "trunk_open_answer",
+            "ttsResponse": [
+                "trunk_open_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "trunk_close_answer",
+            "ttsResponse": [
+                "trunk_close_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "testing",
+            "ttsResponse": [],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "attentionAssist_answer",
+            "ttsResponse": [
+                "attentionAssist_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "automaticDrivingLights_answer",
+            "ttsResponse": [
+                "automaticDrivingLights_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "antiTheftAlarmSystem_answer",
+            "ttsResponse": [
+                "antiTheftAlarmSystem_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "ecoStartStop_answer",
+            "ttsResponse": [
+                "ecoStartStop_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "trafficSignAssist_answer",
+            "ttsResponse": [
+                "trafficSignAssist_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "activeBrakeAssist_answer",
+            "ttsResponse": [
+                "activeBrakeAssist_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "activeBlindSpotAssist_answer",
+            "ttsResponse": [
+                "activeBlindSpotAssist_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "distronic_answer",
+            "ttsResponse": [
+                "distronic_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "activeLaneKeepingAssist_answer",
+            "ttsResponse": [
+                "activeLaneKeepingAssist_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "carWashMode_answer",
+            "ttsResponse": [
+                "carWashMode_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "steeringAssist_answer",
+            "ttsResponse": [
+                "steeringAssist_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "dsr_answer",
+            "ttsResponse": [
+                "dsr_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "parkingAssistantParktronic_answer",
+            "ttsResponse": [
+                "parkingAssistantParktronic_answer"
+            ],
+            "whiteListIntent": []
+        },
+        {
+            "audioResponse": [],
+            "clientBehaviorDirectives": {},
+            "dialogAct": {
+                "dialogActType": "giveInformation",
+                "slots": {}
+            },
+            "guiResponse": {},
+            "name": "functionNotAvailable_answer",
+            "ttsResponse": [
+                "info_function_not_available_in_vehicle_VP_CONCEPT"
+            ],
+            "whiteListIntent": []
+        }
+    ]
+}

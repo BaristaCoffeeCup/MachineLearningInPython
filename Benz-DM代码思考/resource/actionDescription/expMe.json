@@ -1,0 +1,54 @@
+{
+    "apiActions": [
+        {
+            "name": "selectAnswer",
+            "path": "http://exploreme.speech-domain-prd.svc.cluster.local:8080/sdp",
+            "requiredAuthLevel": 2
+        }
+    ],
+    "domain": "expMe",
+    "systemActions": [
+        {
+            "audioResponse": [
+                "promptAudioNTG"
+            ],
+            "dialogAct": {
+                "dialogActType": "giveInformation"
+            },
+            "name": "promptAudioNTG",
+            "ttsResponse": [
+                "promptAudioNTG"
+            ]
+        },
+        {
+            "audioResponse": [
+                "promptAudio"
+            ],
+            "dialogAct": {
+                "dialogActType": "giveInformation"
+            },
+            "name": "promptAudio",
+            "ttsResponse": [
+                "promptAudio"
+            ]
+        },
+        {
+            "audioResponse": [
+                "promptAudioGen20"
+            ],
+            "dialogAct": {
+                "dialogActType": "giveInformation"
+            },
+            "name": "promptAudioGen20"
+        },
+        {
+            "dialogAct": {
+                "dialogActType": "giveInformation"
+            },
+            "name": "promptText",
+            "ttsResponse": [
+                "promptText"
+            ]
+        }
+    ]
+}

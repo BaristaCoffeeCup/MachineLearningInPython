@@ -1,0 +1,707 @@
+{
+    "domain": "staticcarfunctions",
+    "nluInterpretations": [
+        {
+            "expressions": [
+                {
+                    "expression": "我 (想|想要) 让你 (开启|打开|激活) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) 让 [这个|那个] $(feature) (开着|处于开启状态)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) [这个|那个] $(feature) (被开启|被激活|被打开)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) (开启|打开|激活) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 让我们 (开启|打开|激活) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "请 (激活|打开) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(激活|打开) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "你是否 (乐意|愿意) [帮我] 把 [这个|那个] $(feature) 激活",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "你是否 (乐意|愿意) 帮我把 [这个|那个] $(feature) (开启|打开)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 让 [这个|那个] $(feature) (开着|处于开启状态)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] (开启|打开|激活) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] [帮我] 把 [这个|那个] $(feature) (打开|开启)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "是否可以请你 [帮我] 把 [这个|那个] $(feature) (开启|打开|激活)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "是否可以 [帮我] 把 [这个|那个] $(feature) (开启|打开|激活)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                }
+            ],
+            "intent": "activate"
+        },
+        {
+            "expressions": [
+                {
+                    "expression": "[请] [帮我] 把 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(是否可以|能不能) [帮我] 把 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(是否可以|能不能) 请你 [帮我] 把 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 把 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 将 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "你是否乐意帮我把 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 让我们把 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) 把 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) 将 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) 让你把 [所有|我的|这个|那个] $(topic) (关上|关闭) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                }
+            ],
+            "intent": "close"
+        },
+        {
+            "expressions": [
+                {
+                    "expression": "我 (想|想要) 让你 (关闭) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) 让 [这个|那个] $(feature) (关着|处于关闭状态)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) [这个|那个] $(feature) (被关闭|被停用)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) (关闭|停用|关掉) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 让我们 (关闭|停用|关掉) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "请 (停用|关闭) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(停用|关闭) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "你是否 (乐意|愿意) [帮我] 把 [这个|那个] $(feature) 停用",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "你是否 (乐意|愿意) 帮我把 [这个|那个] $(feature) (关闭|关掉)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 让 [这个|那个] $(feature) (关着|处于关闭状态)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] (关闭|停用) [这个|那个] $(feature)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] [帮我] 把 [这个|那个] $(feature) (关闭|关掉)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(是否可以|能不能) 请你 [帮我] 把 [这个|那个] $(feature) (关闭|停用)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(是否可以|能不能) [帮我] 把 [这个|那个] $(feature) (关闭|停用)",
+                    "literals": {
+                        "feature": []
+                    },
+                    "weight": 100
+                }
+            ],
+            "intent": "deactivate"
+        },
+        {
+            "expressions": [
+                {
+                    "expression": "我 (想|想要) 把 [这个|那个] $(slotFold) (合上|展开|锁止|解锁|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) (合上|展开|锁止|解锁|打开|关闭) [这个|那个] $(slotFold)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 让我们把 [这个|那个] $(slotFold) (合上|展开|锁止|解锁|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 把 [这个|那个] $(slotFold) (合上|展开|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "请 (锁止|解锁|打开|关闭) [这个|那个] $(slotFold)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 把 [这个|那个] $(slotFold) (锁止|解锁|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 把 [这个|那个] $(slotFold) (合上|展开|锁止|解锁|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 将 [这个|那个] $(slotFold) (合上|展开|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] [帮我] 把 [这个|那个] $(slotFold) (合上|展开|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(是否可以|能不能) 请你 [帮我] 把 [这个|那个] $(slotFold) (合上|展开|锁止|解锁|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(是否可以|能不能) [帮我] 把 [这个|那个] $(slotFold) (合上|展开|锁止|解锁|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(锁止|解锁|打开|关闭) [这个|那个] $(slotFold)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "请将 [这个|那个] $(slotFold) (锁止|解锁|打开|关闭)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "请 (合上|展开|打开|关闭) [这个|那个] $(slotFold)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(合上|展开|打开|关闭) [这个|那个] $(slotFold)",
+                    "literals": {
+                        "slotFold": []
+                    },
+                    "weight": 100
+                }
+            ],
+            "intent": "fold"
+        },
+        {
+            "expressions": [
+                {
+                    "expression": "我 (想) 让你 (锁止|解锁|关闭|打开) [这个|那个] (汽车|车辆|车门)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想) 让 [这个|那个] (汽车|车辆|车门) (开着|关着|处于锁止状态|处于解锁状态)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想) 将 [这个|那个] (汽车|车辆|车门) (锁止|解锁|关闭|打开)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想) (锁止|解锁|关闭|打开) [这个|那个] (汽车|车辆|车门)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 让我们 (锁止|解锁|关闭|打开) [这个|那个] (汽车|车辆|车门)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "请 (锁止|解锁) [这个|那个] (汽车|车辆|车门)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "(锁止|解锁) [这个|那个] (汽车|车辆|车门)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "你是否乐意 [帮我] 把 [这个|那个] (汽车|车辆|车门) (锁止|解锁)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "你是否乐意帮我把 [这个|那个] (汽车|车辆|车门) (关闭|打开)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] (锁止|解锁|关闭|打开) [这个|那个] (汽车|车辆|车门)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] (关闭|打开) [这个|那个] (汽车|车辆|车门)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] [帮我] 把 [这个|那个] (汽车|车辆|车门) (关闭|打开)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "(是否可以|能不能) 请你 [帮我] 把 [这个|那个] (汽车|车辆|车门) (锁止|解锁|关闭|打开)",
+                    "literals": {},
+                    "weight": 100
+                },
+                {
+                    "expression": "(是否可以|能不能) [帮我] 把 [这个|那个] (汽车|车辆|车门) (锁止|解锁|关闭|打开)",
+                    "literals": {},
+                    "weight": 100
+                }
+            ],
+            "intent": "lock"
+        },
+        {
+            "expressions": [
+                {
+                    "expression": "(是否可以|能不能) [帮我] 把 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "(是否可以|能不能) 请你 [帮我] 把 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] [帮我] 把 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 将 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "你是否乐意帮我把 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 把 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "[请] 让我们把 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) 把 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) 将 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                },
+                {
+                    "expression": "我 (想|想要) 让你把 [所有|我的|这个|那个] $(topic) (打开|开启) [一点|一些|全部|一半]",
+                    "literals": {
+                        "topic": []
+                    },
+                    "weight": 100
+                }
+            ],
+            "intent": "open"
+        },
+        {
+            "expressions": [],
+            "intent": "carfunctionvariations"
+        }
+    ],
+    "userInputs": [
+        {
+            "canonicals": [
+                {
+                    "canonical": "electronicStabilityProgram",
+                    "literals": []
+                },
+                {
+                    "canonical": "parkingAssistantParktronic",
+                    "literals": []
+                },
+                {
+                    "canonical": "dsr",
+                    "literals": []
+                },
+                {
+                    "canonical": "steeringAssist",
+                    "literals": []
+                },
+                {
+                    "canonical": "carWashMode",
+                    "literals": []
+                },
+                {
+                    "canonical": "hazardWarningLamps",
+                    "literals": []
+                },
+                {
+                    "canonical": "windshieldWipers",
+                    "literals": []
+                },
+                {
+                    "canonical": "activeLaneKeepingAssist",
+                    "literals": []
+                },
+                {
+                    "canonical": "windshieldWipersRear",
+                    "literals": []
+                },
+                {
+                    "canonical": "cruiseControl",
+                    "literals": []
+                },
+                {
+                    "canonical": "rearFogLamp",
+                    "literals": []
+                },
+                {
+                    "canonical": "lowBeamHeadlamps",
+                    "literals": []
+                },
+                {
+                    "canonical": "highBeamHeadlamps",
+                    "literals": []
+                },
+                {
+                    "canonical": "distronic",
+                    "literals": []
+                },
+                {
+                    "canonical": "antiLockBrakingSystem",
+                    "literals": []
+                },
+                {
+                    "canonical": "activeBlindSpotAssist",
+                    "literals": []
+                },
+                {
+                    "canonical": "activeBrakeAssist",
+                    "literals": []
+                },
+                {
+                    "canonical": "trafficSignAssist",
+                    "literals": []
+                },
+                {
+                    "canonical": "ecoStartStop",
+                    "literals": []
+                },
+                {
+                    "canonical": "antiTheftAlarmSystem",
+                    "literals": []
+                },
+                {
+                    "canonical": "automaticDrivingLights",
+                    "literals": []
+                },
+                {
+                    "canonical": "attentionAssist",
+                    "literals": []
+                },
+                {
+                    "canonical": "standingLight",
+                    "literals": []
+                },
+                {
+                    "canonical": "parkingLight",
+                    "literals": []
+                },
+                {
+                    "canonical": "fogLamp",
+                    "literals": []
+                },
+                {
+                    "canonical": "displayCleaningMode",
+                    "literals": []
+                },
+                {
+                    "canonical": "daytimeRunningLight",
+                    "literals": []
+                },
+                {
+                    "canonical": "centralLockingSystem",
+                    "literals": []
+                }
+            ],
+            "name": "feature"
+        },
+        {
+            "canonicals": [
+                {
+                    "canonical": "headRestraints",
+                    "literals": []
+                },
+                {
+                    "canonical": "trailerCoupling",
+                    "literals": []
+                },
+                {
+                    "canonical": "exteriorMirrors",
+                    "literals": []
+                }
+            ],
+            "name": "slotFold"
+        },
+        {
+            "canonicals": [
+                {
+                    "canonical": "doors",
+                    "literals": []
+                },
+                {
+                    "canonical": "fuelTankFlap",
+                    "literals": []
+                },
+                {
+                    "canonical": "bonnet",
+                    "literals": []
+                },
+                {
+                    "canonical": "trunk",
+                    "literals": []
+                }
+            ],
+            "name": "topic"
+        }
+    ]
+}

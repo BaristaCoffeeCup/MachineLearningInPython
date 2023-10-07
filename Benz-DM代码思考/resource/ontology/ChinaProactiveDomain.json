@@ -1,0 +1,91 @@
+{
+	"ontology": {
+		"intents": {
+			"parkingrecommendation": {
+				"slotOnly": false,
+				"dialogActType": "inform",
+				"fulfilledBy": {
+					"systemActions": [],
+					"apiActions": []
+				}
+			},
+			"chargingrecommendation": {
+				"slotOnly": false,
+				"dialogActType": "inform"
+			},
+			"betterrouterecommendation": {
+				"slotOnly": false,
+				"dialogActType": "inform"
+			}
+		},
+		"userInputs": {
+			"confirmparking": {
+				"type": "yesNo",
+				"valueType": "String",
+				"values": {},
+				"volatile": false
+			},
+			"parking_yes_guid": {
+				"type": "FreeText",
+				"valueType": "String",
+				"values": {},
+				"volatile": false
+			},
+			"parking_no_guid": {
+				"type": "FreeText",
+				"valueType": "String",
+				"values": {},
+				"volatile": false
+			},
+			"confirmcharging": {
+				"type": "yesNo",
+				"valueType": "String",
+				"values": {},
+				"volatile": false
+			},
+			"charging_yes_guid": {
+				"type": "FreeText",
+				"valueType": "String",
+				"values": {},
+				"volatile": false
+			},
+			"charging_no_guid": {
+				"type": "FreeText",
+				"valueType": "String",
+				"values": {},
+				"volatile": false
+			},
+			"confirmbetterroute": {
+				"type": "yesNo",
+				"valueType": "String",
+				"values": {},
+				"volatile": false,
+				"resetOnInput": []
+			},
+			"betterroute_yes_guid": {
+				"type": "FreeText",
+				"valueType": "String",
+				"values": {},
+				"volatile": false
+			},
+			"betterroute_no_guid": {
+				"type": "FreeText",
+				"valueType": "String",
+				"values": {},
+				"volatile": false
+			}
+		},
+		"apiInputs": {
+			"confirmparking_finalresult": {
+				"volatile": false
+			},
+			"confirmcharging_finalresult": {
+				"volatile": false
+			},
+			"confirmbetterroute_finalresult": {
+				"volatile": false
+			}
+		}
+	},
+	"domain": "ChinaProactiveDomain"
+}

@@ -1,0 +1,24 @@
+{
+	"ttsResponses": {
+		"askConfirmationofBetterroute": ["为您找到更优路线，是否前往？"],
+		"askConfirmationofCharging": ["为您找到以下充电站，是否前往？"],
+		"askConfirmationofParking": ["为您找到以下停车场，是否前往？"],
+		"confirmedBetterroute": ["好的，为您切换路线"],
+		"confirmedCharging": ["好的，为您发起导航"],
+		"confirmedParking": ["好的，为您发起导航"],
+		"deniedBetterroute": ["好的"],
+		"deniedCharging": ["好的"],
+		"deniedParking": ["好的"]
+	},
+	"audioResponses": {},
+	"guiResponses": {
+		"askConfirmationofBetterroute": {},
+		"askConfirmationofParking": {}
+	},
+	"language": "cmn-CHN",
+	"additionalResponses": {
+		"voice": {},
+		"text": {}
+	},
+	"domain": "ChinaProactiveDomain"
+}

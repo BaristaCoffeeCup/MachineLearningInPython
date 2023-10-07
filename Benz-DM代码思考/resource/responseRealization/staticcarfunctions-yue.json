@@ -1,0 +1,208 @@
+{
+    "additionalResponses": {
+        "text": {},
+        "voice": {}
+    },
+    "audioResponses": {},
+    "domain": "staticcarfunctions",
+    "guiResponses": {},
+    "language": "yue-CHS",
+    "ttsResponses": {
+        "activeBlindSpotAssist_answer": [
+            "抱歉，无法通过语音操作盲点辅助系统。"
+        ],
+        "activeBlindSpotAssist_answer_postTts": [],
+        "activeBlindSpotAssist_answer_preTts": [],
+        "activeBrakeAssist_answer": [
+            "抱歉，无法通过语音操作主动式制动辅助系统。"
+        ],
+        "activeBrakeAssist_answer_postTts": [],
+        "activeBrakeAssist_answer_preTts": [],
+        "activeLaneKeepingAssist_answer": [
+            "抱歉，无法通过语音操作主动式车道保持辅助系统。"
+        ],
+        "activeLaneKeepingAssist_answer_postTts": [],
+        "activeLaneKeepingAssist_answer_preTts": [],
+        "antiLockBrakingSystem_answer": [
+            "抱歉，无法通过语音操作防抱死制动系统。"
+        ],
+        "antiLockBrakingSystem_answer_postTts": [],
+        "antiLockBrakingSystem_answer_preTts": [],
+        "antiTheftAlarmSystem_answer": [
+            "抱歉，无法通过语音操作防盗探测系统。"
+        ],
+        "antiTheftAlarmSystem_answer_postTts": [],
+        "antiTheftAlarmSystem_answer_preTts": [],
+        "attentionAssist_answer": [
+            "抱歉，无法通过语音操作注意力辅助系统。"
+        ],
+        "attentionAssist_answer_postTts": [],
+        "attentionAssist_answer_preTts": [],
+        "automaticDrivingLights_answer": [
+            "抱歉，无法通过语音操作自动行车灯。"
+        ],
+        "automaticDrivingLights_answer_postTts": [],
+        "automaticDrivingLights_answer_preTts": [],
+        "bonnet_close_answer": [
+            "抱歉，无法通过语音关闭发动机罩。"
+        ],
+        "bonnet_close_answer_postTts": [],
+        "bonnet_close_answer_preTts": [],
+        "bonnet_open_answer": [
+            "抱歉，无法通过语音打开发动机罩。"
+        ],
+        "bonnet_open_answer_postTts": [],
+        "bonnet_open_answer_preTts": [],
+        "carWashMode_answer": [
+            "抱歉，无法通过语音操作车辆清洗模式。"
+        ],
+        "carWashMode_answer_postTts": [],
+        "carWashMode_answer_preTts": [],
+        "centralLockingSystem_answer": [
+            "抱歉，无法通过语音操作中央锁止系统。"
+        ],
+        "centralLockingSystem_answer_postTts": [],
+        "centralLockingSystem_answer_preTts": [],
+        "cruiseControl_answer": [
+            "抱歉，无法通过语音操作定速巡航控制。"
+        ],
+        "cruiseControl_answer_postTts": [],
+        "cruiseControl_answer_preTts": [],
+        "daytimeRunningLight_answer": [
+            "抱歉，无法通过语音操作日间行车灯。"
+        ],
+        "daytimeRunningLight_answer_postTts": [],
+        "daytimeRunningLight_answer_preTts": [],
+        "displayCleaningMode_activate_answer": [
+            "抱歉，无法通过语音激活清洁模式。"
+        ],
+        "displayCleaningMode_activate_answer_postTts": [],
+        "displayCleaningMode_activate_answer_preTts": [],
+        "displayCleaningMode_deactivate_answer": [
+            "抱歉，无法通过语音停用清洁模式。"
+        ],
+        "displayCleaningMode_deactivate_answer_postTts": [],
+        "displayCleaningMode_deactivate_answer_preTts": [],
+        "distronic_answer": [
+            "抱歉，无法通过语音操作主动式 Distronic 车距控制辅助。"
+        ],
+        "distronic_answer_postTts": [],
+        "distronic_answer_preTts": [],
+        "doors_close_answer": [
+            "抱歉，无法通过语音关闭车门。"
+        ],
+        "doors_close_answer_postTts": [],
+        "doors_close_answer_preTts": [],
+        "doors_open_answer": [
+            "抱歉，无法通过语音打开车门。"
+        ],
+        "doors_open_answer_postTts": [],
+        "doors_open_answer_preTts": [],
+        "dsr_answer": [
+            "抱歉，无法通过语音操作 DSR 下坡行驶辅助功能。"
+        ],
+        "dsr_answer_postTts": [],
+        "dsr_answer_preTts": [],
+        "ecoStartStop_answer": [
+            "抱歉，无法通过语音操作 Eco 启动/停止功能。"
+        ],
+        "ecoStartStop_answer_postTts": [],
+        "ecoStartStop_answer_preTts": [],
+        "electronicStabilityProgram_answer": [
+            "抱歉，无法通过语音操作电控车辆稳定行驶系统。"
+        ],
+        "electronicStabilityProgram_answer_postTts": [],
+        "electronicStabilityProgram_answer_preTts": [],
+        "exteriorMirror_answer": [
+            "抱歉，无法通过语音操作车外后视镜。"
+        ],
+        "exteriorMirror_answer_postTts": [],
+        "exteriorMirror_answer_preTts": [],
+        "fogLamp_answer": [
+            "抱歉，无法通过语音操作前雾灯。"
+        ],
+        "fogLamp_answer_postTts": [],
+        "fogLamp_answer_preTts": [],
+        "fuelTankFlap_close_answer": [
+            "抱歉，无法通过语音关闭加油口盖板。"
+        ],
+        "fuelTankFlap_close_answer_postTts": [],
+        "fuelTankFlap_close_answer_preTts": [],
+        "fuelTankFlap_open_answer": [
+            "抱歉，无法通过语音打开加油口盖板。"
+        ],
+        "fuelTankFlap_open_answer_postTts": [],
+        "fuelTankFlap_open_answer_preTts": [],
+        "hazardWarningLamps_answer": [
+            "抱歉，无法通过语音操作危险警告灯。"
+        ],
+        "hazardWarningLamps_answer_postTts": [],
+        "hazardWarningLamps_answer_preTts": [],
+        "highBeamHeadlamps_answer": [
+            "抱歉，无法通过语音操作远光灯。"
+        ],
+        "highBeamHeadlamps_answer_postTts": [],
+        "highBeamHeadlamps_answer_preTts": [],
+        "info_function_not_available_in_vehicle_VP_CONCEPT": [
+            "不好意思，本车未配备该功能。",
+            "不好意思，本车没有配备该功能。",
+            "对不起，本车没有配备该功能。",
+            "抱歉，本车没有配备该功能。"
+        ],
+        "lowBeamHeadlamps_answer": [
+            "抱歉，无法通过语音操作近光灯。"
+        ],
+        "lowBeamHeadlamps_answer_postTts": [],
+        "lowBeamHeadlamps_answer_preTts": [],
+        "ntgsixanswer": [
+            "抱歉，无法通过语音操作该功能。"
+        ],
+        "ntgsixanswer_postTts": [],
+        "ntgsixanswer_preTts": [],
+        "parkingAssistantParktronic_answer": [
+            "抱歉，无法通过语音操作 Parktronic 驻车辅助系统。"
+        ],
+        "parkingAssistantParktronic_answer_postTts": [],
+        "parkingAssistantParktronic_answer_preTts": [],
+        "parkingLight_answer": [
+            "抱歉，无法通过语音操作停车灯。"
+        ],
+        "parkingLight_answer_postTts": [],
+        "parkingLight_answer_preTts": [],
+        "rearFogLamp_answer": [
+            "抱歉，无法通过语音操作后雾灯。"
+        ],
+        "rearFogLamp_answer_postTts": [],
+        "rearFogLamp_answer_preTts": [],
+        "standingLight_answer": [
+            "抱歉，无法通过语音操作驻车灯。"
+        ],
+        "standingLight_answer_postTts": [],
+        "standingLight_answer_preTts": [],
+        "steeringAssist_answer": [
+            "抱歉，无法通过语音操作主动式动力转向。"
+        ],
+        "steeringAssist_answer_postTts": [],
+        "steeringAssist_answer_preTts": [],
+        "trafficSignAssist_answer": [
+            "抱歉，无法通过语音操作交通标志识别辅助系统。"
+        ],
+        "trafficSignAssist_answer_postTts": [],
+        "trafficSignAssist_answer_preTts": [],
+        "trunk_close_answer": [
+            "抱歉，无法通过语音关闭行李箱。"
+        ],
+        "trunk_close_answer_postTts": [],
+        "trunk_close_answer_preTts": [],
+        "trunk_open_answer": [
+            "抱歉，无法通过语音打开行李箱。"
+        ],
+        "trunk_open_answer_postTts": [],
+        "trunk_open_answer_preTts": [],
+        "windshieldWipers_answer": [
+            "抱歉，无法通过语音操作风挡玻璃雨刮器。"
+        ],
+        "windshieldWipers_answer_postTts": [],
+        "windshieldWipers_answer_preTts": []
+    }
+}

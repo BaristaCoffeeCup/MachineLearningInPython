@@ -1,0 +1,17 @@
+{
+	"ontology": {
+		"intents": {
+			"bon": {
+				"dialogActType": "inform",
+				"slotOnly": false
+			}
+		},
+		"userInputs": {},
+		"apiInputs": {
+			"hasresponsedata": {
+				"volatile": false
+			}
+		}
+	},
+	"domain": "bestornothingmodechina"
+}

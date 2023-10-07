@@ -1,0 +1,13 @@
+{
+	"ttsResponses": {
+		"successTTSResponse": ["好的"]
+	},
+	"audioResponses": {},
+	"guiResponses": {},
+	"language": "cmn-CHN",
+	"additionalResponses": {
+		"voice": {},
+		"text": {}
+	},
+	"domain": "quickappsupport"
+}

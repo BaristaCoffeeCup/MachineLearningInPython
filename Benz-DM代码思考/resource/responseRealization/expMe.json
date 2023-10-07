@@ -1,0 +1,20 @@
+{
+    "audioResponses": {
+        "promptAudio": [
+            "$apiData.audio"
+        ],
+        "promptAudioGen20": [
+            "$responseData.audio"
+        ]
+    },
+    "domain": "expMe",
+    "language": "cmn-CHN",
+    "ttsResponses": {
+        "promptAudio": [
+            " "
+        ],
+        "promptText": [
+            "$apiData.text"
+        ]
+    }
+}

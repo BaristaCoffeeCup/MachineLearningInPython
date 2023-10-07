@@ -1,0 +1,102 @@
+{
+    "domain": "EmbeddedNaviLocationRyan",
+    "language": "cmn-CHN",
+    "ttsResponses": {
+        "28change": [
+            ""
+        ],
+        "airscarf_vehicle__status_nok_VP_CONCEPT": [
+            "头颈暖风系统在本车不可用。",
+            "这辆车上没有头颈暖风系统。"
+        ],
+        "ambient_light_vehicle_nr_out_of_range__status_nok_VP_CONCEPT": [
+            "环境氛围照明系统有 64 种不同的颜色。",
+            "超出范围了，氛围灯共有64种颜色可以调节。"
+        ],
+        "energizing_comfort_not_available_in_vehicle_VP_CONCEPT": [
+            "这辆车上没有畅心醒神。",
+            "这辆车的畅心醒神不可用。"
+        ],
+        "energizing_comfort_requirements_for_program_no_available_VP_CONCEPT": [
+            "所需的畅心醒神模式不可用。",
+            "车上没有你想打开的畅心醒神模式。"
+        ],
+        "energizing_seat_kinetics_vehicle__status_nok_VP_CONCEPT": [
+            "本车座椅动力学不可用。",
+            "这辆车上没有座椅动力学。"
+        ],
+        "head_up_display_vehicle__status_nok_VP_CONCEPT": [
+            "本车内平视显示系统不可用。",
+            "这辆车上没有车内平视显示系统。"
+        ],
+        "info_SNA_status_nok_VP_CONCEPT": [
+            "车上没有智能变道及导航辅助驾驶功能，请联系你的经销商。"
+        ],
+        "info_adb_contact_relation_storage_full_VP_CONCEPT": [
+            "抱歉，我没法再保存关系了，请先删除一条现有的关系。",
+            "该联系人已有一条已存在的关系。无法再保存关系。"
+        ],
+        "info_navi_ADR_on_VP_PROMPT_CONCEPT": [
+            "导航语音已打开。",
+            "导航语音已经打开了。",
+            "我把导航语音打开了。"
+        ],
+        "info_navi_all_destinations_set_VP_CONCEPT": [
+            "抱歉，我最多能保存5个目的地，你想替换第几个？",
+            "无法保存更多目的地。请说出需替换的目的地号码。"
+        ],
+        "info_navi_guidance_not_active_VP_CONCEPT": [
+            "目前没有在路线导航中。"
+        ],
+        "info_tv_preset_memory_full_VP_CONCEPT": [
+            "抱歉，电视台收藏夹已经满了。"
+        ],
+        "info_vehiclefunctions_ev_departure_time_full_memory_error_VP_CONCEPT": [
+            "我只能记录 \\!\\tn=TTS-NUMBER\\\\!\\slotbegin=g_parameter\\$apiinput.g_parameter\\!\\slotend\\\\!\\tn=normal\\\\!\\tn=SDS\\ 个出发时间。我应该删除哪个？",
+            "抱歉，我最多能保存 \\!\\tn=TTS-NUMBER\\\\!\\slotbegin=g_parameter\\$apiinput.g_parameter\\!\\slotend\\\\!\\tn=normal\\\\!\\tn=SDS\\ 个出发时间。你想删除哪一个？"
+        ],
+        "instrument_cluster_3D_not_available_CONCEPT": [
+            "这辆车上没有3D驾驶员显示屏",
+            "这辆车的 3D 驾驶员显示屏不可用。"
+        ],
+        "ionization__not_avail_in_vehicle_CONCEPT": [
+            "本车内负离子功能暂时不可用。",
+            "这辆车没有配置负离子功能。"
+        ],
+        "navi_info_map_not_available_VP_CONCEPT": [
+            "没有找到你想要的地图模式。",
+            "没有这个地图模式。"
+        ],
+        "navi_route_preference_set_VP_CONCEPT": [
+            "我保存了路线偏好。",
+            "我已为您设置了路线偏好。"
+        ],
+        "parking_assist__not_avail_in_vehicle_CONCEPT": [
+            "在这辆车中智能泊车不可用。",
+            "这辆车没法使用智能泊车。"
+        ],
+        "phone_codriver_error_can_do_only_from_driver_seat_VP_CONCEPT": [
+            "只有驾驶员才能使用电话功能。",
+            "抱歉，只能由驾驶员通过声音操作电话。"
+        ],
+        "reading_light__not_avail_in_vehicle_CONCEPT": [
+            "本车内阅读灯不可用。",
+            "这辆车上没有阅读灯。"
+        ],
+        "scent__not_avail_in_vehicle_CONCEPT": [
+            "车内香氛暂时不可用。",
+            "这辆车上没有香氛系统。"
+        ],
+        "seat_heating_vehicle__status_nok_VP_CONCEPT": [
+            "这辆车上没有座椅加热。",
+            "这辆车的座椅加热不可用。"
+        ],
+        "sync__not_avail_in_vehicle_CONCEPT": [
+            "本车智能气候控制同步不可用。",
+            "这辆车没法同步智能气候控制。"
+        ],
+        "test": [
+            ""
+        ]
+    }
+}

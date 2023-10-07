@@ -1,0 +1,16 @@
+{
+    "domain": "chinafireplace",
+    "nluInterpretations": [
+        {
+            "expressions": [
+                {
+                    "expression": "[((我要)|(帮我)|(我想))] [((打开)|(开启)|(开始)|(启动)|(进入))] ((围炉夜话)|(炉火)) ((模式)|(功能))",
+                    "literals": {},
+                    "weight": 100
+                }
+            ],
+            "intent": "fireplace"
+        }
+    ],
+    "userInputs": []
+}

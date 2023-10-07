@@ -1,0 +1,9 @@
+{
+    "domain": "chinafireplace",
+    "ntgVersions": [
+        "NTG7-FU3",
+        "NTG7-FU4",
+        "Gen20x.i2"
+    ],
+    "version": "1.0.0"
+}

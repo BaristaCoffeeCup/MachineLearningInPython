@@ -1,0 +1,44 @@
+{
+	"ontology": {
+		"intents": {
+			"wishkeyselection": {
+				"slotOnly": false
+			},
+			"slot_wishkey": {
+				"slotOnly": true
+			},
+			"slot_back": {
+				"slotOnly": true
+			}
+		},
+		"userInputs": {
+			"wishkey": {
+				"type": "List",
+				"valueType": "String",
+				"values": {
+					"happiness": [],
+					"future": [],
+					"thrive": [],
+					"promotion": [],
+					"best": [],
+					"safeness": []
+				},
+				"volatile": false
+			},
+			"generic_back": {
+				"type": "StaticList",
+				"valueType": "String",
+				"values": {
+					"true": []
+				},
+				"volatile": false
+			}
+		},
+		"apiInputs": {
+			"wishkeyscollected": {
+				"volatile": false
+			}
+		}
+	},
+	"domain": "SpringFestival"
+}

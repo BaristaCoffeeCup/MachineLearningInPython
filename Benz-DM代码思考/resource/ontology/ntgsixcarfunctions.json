@@ -1,0 +1,60 @@
+{
+	"ontology": {
+		"intents": {
+			"close": {
+				"dialogActType": "inform",
+				"slotOnly": false
+			},
+			"open": {
+				"dialogActType": "inform",
+				"slotOnly": false
+			},
+			"": {
+				"slotOnly": false,
+				"dialogActType": "inform"
+			},
+			"extendedCarFunction": {
+				"slotOnly": false,
+				"dialogActType": "inform"
+			}
+		},
+		"userInputs": {
+			"windowroof": {
+				"type": "StaticList",
+				"values": {
+					"roof": ["sliding sunroof", "roof window", "panoramic sliding sunroof", "panoramic roof", "window at top", "sun roof", "window in roof", "upper window", "panoramic window", "roof window", "glass roof", "panorama roof", "panorama sliding sunroof", "panorama sliding sun roof", "panoramic sliding sun roof", "sunroof", "panorama sunroof", "panorama sun roof"],
+					"window": ["my window", "my windows", "front-passenger window", "window on front-passenger side", "front left window", "front right window", "front window on driver's side", "front window on front-passenger side", "front window on left-hand side", "front window on right-hand side", "left rear window", "right rear window", "rear window on driver's side", "rear window on front-passenger side", "rear window on left-hand side", "rear window on right-hand side", "left window", "left windows", "right window", "right windows", "window on driver's side", "windows on driver's side", "window on left-hand side", "windows on left-hand side", "window on right-hand side", "windows on right-hand side", "left front window", "left rear window", "right front window", "right rear window", "window", "windows", "front window", "front windows", "rear window", "rear windows", "front left window", "rear left window", "front right window", "rear right window", "front window on driver's side", "front window on front-passenger side", "front window on left-hand side", "front window on right-hand side", "rear window on driver's side", "rear window on front-passenger side", "rear window on left-hand side", "rear window on right-hand side", "window on front driver's side", "window on rear driver's side", "window on front-passenger side", "window on rear front-passenger side", "window on left front side", "window on rear left side", "window on front right side", "window on rear right side", "side window", "side windows", "window on side", "windows on side", "driver window", "window in rear", "front passenger window"]
+				},
+				"valueType": "String",
+				"volatile": false
+			}
+		},
+		"apiInputs": {
+			"carModel": {
+				"volatile": false
+			},
+			"ntgVersion": {
+				"volatile": false
+			},
+			"market": {
+				"volatile": false
+			},
+			"application": {
+				"volatile": false
+			},
+			"seatIdentifier": {
+				"volatile": false
+			},
+			"primaryFuelType": {
+				"volatile": false
+			},
+			"secondaryFuelType": {
+				"volatile": false
+			},
+			"ntg": {
+				"volatile": false
+			}
+		}
+	},
+	"domain": "ntgsixcarfunctions"
+}

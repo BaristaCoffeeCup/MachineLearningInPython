@@ -1,0 +1,83 @@
+{
+	"decisionRules": [{
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["bon"]
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "hasresponsedata",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [{
+			"slotName": "carModel",
+			"condition": "ContainsMatcher",
+			"arguments": ["206", "297", "OTHEROTHER", "295"]
+		}, {
+			"slotName": "seatIdentifier",
+			"condition": "ContainsMatcher",
+			"arguments": ["Driver"]
+		}],
+		"apiAction": "BONapicall",
+		"systemAction": "",
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"module": {
+			"name": "BON",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["bon"]
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "hasresponsedata",
+			"condition": "NotCollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [{
+			"slotName": "carModel",
+			"condition": "ContainsMatcher",
+			"arguments": ["206", "297", "OTHEROTHER", "295"]
+		}],
+		"apiAction": "",
+		"systemAction": "ttsresponseforbackseats",
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"module": {
+			"name": "BON",
+			"comments": ""
+		}
+	}, {
+		"userIntent": {
+			"condition": "EqualsMatcher",
+			"arguments": ["bon"]
+		},
+		"userInputs": [],
+		"apiInputs": [{
+			"slotName": "hasresponsedata",
+			"condition": "CollectedMatcher",
+			"arguments": [""]
+		}],
+		"metadata": [],
+		"apiAction": "",
+		"systemAction": "ttsresponse",
+		"request": {
+			"condition": "NotCollectedMatcher",
+			"arguments": []
+		},
+		"module": {
+			"name": "BON",
+			"comments": ""
+		}
+	}],
+	"volatile": false,
+	"domain": "bestornothingmodechina"
+}

@@ -1,0 +1,172 @@
+{
+	"decisionRules": [{
+			"apiAction": "selectAnswer",
+			"apiInputs": [{
+				"arguments": [],
+				"condition": "NotCollectedMatcher",
+				"slotName": "status"
+			}],
+			"module": {
+				"name": ""
+			},
+			"request": {
+				"arguments": [],
+				"condition": "NotCollectedMatcher"
+			},
+			"ruleIndex": 1,
+			"userInputs": [],
+			"userIntent": {
+				"arguments": [],
+				"condition": "CollectedMatcher"
+			}
+		},
+		{
+			"apiInputs": [{
+					"arguments": [
+						"success"
+					],
+					"condition": "EqualsMatcher",
+					"slotName": "status"
+				},
+				{
+					"arguments": [
+						"text"
+					],
+					"condition": "EqualsMatcher",
+					"slotName": "response-type"
+				}
+			],
+			"module": {
+				"name": ""
+			},
+			"request": {
+				"arguments": [],
+				"condition": "NotCollectedMatcher"
+			},
+			"ruleIndex": 2,
+			"systemAction": "promptText",
+			"userInputs": [],
+			"userIntent": {
+				"arguments": [],
+				"condition": "CollectedMatcher"
+			}
+		},
+		{
+			"apiInputs": [{
+					"arguments": [
+						"success"
+					],
+					"condition": "EqualsMatcher",
+					"slotName": "status"
+				},
+				{
+					"arguments": [
+						"audio"
+					],
+					"condition": "EqualsMatcher",
+					"slotName": "response-type"
+				}
+			],
+			"metadata": [{
+				"arguments": [
+					"NTG"
+				],
+				"condition": "ContainsMatcher",
+				"slotName": "ntgVersion"
+			}],
+			"module": {
+				"name": ""
+			},
+			"request": {
+				"arguments": [],
+				"condition": "NotCollectedMatcher"
+			},
+			"ruleIndex": 3,
+			"systemAction": "promptAudioNTG",
+			"userInputs": [],
+			"userIntent": {
+				"arguments": [],
+				"condition": "CollectedMatcher"
+			}
+		},
+		{
+			"apiInputs": [{
+					"arguments": [
+						"success"
+					],
+					"condition": "EqualsMatcher",
+					"slotName": "status"
+				},
+				{
+					"arguments": [
+						"audio"
+					],
+					"condition": "EqualsMatcher",
+					"slotName": "response-type"
+				}
+			],
+			"module": {
+				"name": ""
+			},
+			"request": {
+				"arguments": [],
+				"condition": "NotCollectedMatcher"
+			},
+			"ruleIndex": 4,
+			"systemAction": "promptAudioGen20",
+			"userInputs": [],
+			"userIntent": {
+				"arguments": [],
+				"condition": "CollectedMatcher"
+			}
+		},
+		{
+			"apiInputs": [{
+				"arguments": [
+					"success"
+				],
+				"condition": "EqualsMatcher",
+				"slotName": "status"
+			}],
+			"module": {
+				"name": ""
+			},
+			"request": {
+				"arguments": [],
+				"condition": "NotCollectedMatcher"
+			},
+			"ruleIndex": 5,
+			"systemAction": "promptText",
+			"userInputs": [],
+			"userIntent": {
+				"arguments": [],
+				"condition": "CollectedMatcher"
+			}
+		},
+		{
+			"apiInputs": [{
+				"arguments": [
+					"success"
+				],
+				"condition": "NotEqualsMatcher",
+				"slotName": "status"
+			}],
+			"module": {
+				"name": ""
+			},
+			"request": {
+				"arguments": [],
+				"condition": "NotCollectedMatcher"
+			},
+			"ruleIndex": 6,
+			"systemAction": "DaimlerUnsupportedAction",
+			"userInputs": [],
+			"userIntent": {
+				"arguments": [],
+				"condition": "CollectedMatcher"
+			}
+		}
+	],
+	"domain": "expMe",
+	"volatile": false
+}

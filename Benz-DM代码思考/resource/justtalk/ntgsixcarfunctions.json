@@ -1,0 +1,16 @@
+{
+	"justtalk": [{
+		"intentName": "close",
+		"justtalk": false
+	}, {
+		"intentName": "open",
+		"justtalk": false
+	}, {
+		"intentName": "",
+		"justtalk": false
+	}, {
+		"intentName": "extendedCarFunction",
+		"justtalk": false
+	}],
+	"domain": "ntgsixcarfunctions"
+}

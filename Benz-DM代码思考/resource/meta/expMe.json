@@ -1,0 +1,16 @@
+{
+    "domain": "expMe",
+    "ntgVersions": [
+        "NTG7-SOP",
+        "NTG7-FU2",
+        "NTG7-FU3",
+        "NTG7-FU4",
+        "Gen20x.i2",
+        "NTG7-Prem-FU5",
+        "NTG7-Mid-FU5",
+        "Gen20x.i3",
+        "NTG7-High-FU5",
+        "NTG7-PremPlus-FU5"
+    ],
+    "version": "1.0.0"
+}

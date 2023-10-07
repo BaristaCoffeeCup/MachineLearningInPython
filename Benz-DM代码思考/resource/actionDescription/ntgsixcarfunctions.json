@@ -1,0 +1,26 @@
+{
+	"systemActions": [{
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"name": "roof_answer",
+		"ttsResponse": ["roof_answer"]
+	}, {
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"name": "window_answer",
+		"ttsResponse": ["window_answer"]
+	}, {
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"name": "ntgsix_answer",
+		"ttsResponse": ["ntgsix_answer"]
+	}],
+	"apiActions": [],
+	"domain": "ntgsixcarfunctions"
+}

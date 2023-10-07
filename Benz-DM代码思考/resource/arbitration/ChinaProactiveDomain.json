@@ -1,0 +1,8 @@
+{
+	"arbitration": {
+		"parkingrecommendation": "cloud",
+		"chargingrecommendation": "cloud",
+		"betterrouterecommendation": "cloud"
+	},
+	"domain": "ChinaProactiveDomain"
+}

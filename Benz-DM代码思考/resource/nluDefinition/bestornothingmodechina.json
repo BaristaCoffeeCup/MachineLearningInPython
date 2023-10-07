@@ -1,0 +1,14 @@
+{
+	"nluInterpretations": [{
+		"intent": "bon",
+		"expressions": [{
+			"expression": "开启展厅模式"
+		}, {
+			"expression": "开启光影隧道"
+		}, {
+			"expression": "请开始你的表演"
+		}]
+	}],
+	"userInputs": [],
+	"domain": "bestornothingmodechina"
+}

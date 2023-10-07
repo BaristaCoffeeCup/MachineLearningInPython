@@ -1,0 +1,190 @@
+{
+	"systemActions": [{
+		"name": "ShowKeysPagefor6",
+		"ttsResponse": ["ShowKeysPagefor6"],
+		"dialogAct": {
+			"dialogActType": "askForInput",
+			"slots": {
+				"wishkey": null
+			}
+		},
+		"guiResponse": "ShowKeysPagefor6",
+		"audioResponse": ["ShowKeysPagefor6"],
+		"clientBehaviorDirectives": {
+			"followUp ": true
+		}
+	}, {
+		"name": "ShowHappinessCoupletfor6",
+		"ttsResponse": ["ShowHappinessCoupletfor6"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowHappinessCoupletfor6",
+		"audioResponse": ["ShowHappinessCoupletfor6"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowFutureCoupletfor6",
+		"ttsResponse": ["ShowFutureCoupletfor6"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowFutureCoupletfor6",
+		"audioResponse": ["ShowFutureCoupletfor6"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowThriveCoupletfor6",
+		"ttsResponse": ["ShowThriveCoupletfor6"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowThriveCoupletfor6",
+		"audioResponse": ["ShowThriveCoupletfor6"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowSafenessCoupletfor6",
+		"ttsResponse": ["ShowSafenessCoupletfor6"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowSafenessCoupletfor6",
+		"audioResponse": ["ShowSafenessCoupletfor6"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowPromotionCoupletfor6",
+		"ttsResponse": ["ShowPromotionCoupletfor6"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowPromotionCoupletfor6",
+		"audioResponse": ["ShowPromotionCoupletfor6"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowBestCoupletfor6",
+		"ttsResponse": ["ShowBestCoupletfor6"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowBestCoupletfor6",
+		"audioResponse": ["ShowBestCoupletfor6"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowKeysPagefor7",
+		"ttsResponse": ["ShowKeysPagefor7"],
+		"dialogAct": {
+			"dialogActType": "askForInput",
+			"slots": {
+				"wishkey": null
+			}
+		},
+		"guiResponse": "ShowKeysPagefor7",
+		"audioResponse": ["ShowKeysPagefor7"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowHappinessCoupletfor7",
+		"ttsResponse": ["ShowHappinessCoupletfor7"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowHappinessCoupletfor7",
+		"audioResponse": ["ShowHappinessCoupletfor7"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowFutureCoupletfor7",
+		"ttsResponse": ["ShowFutureCoupletfor7"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowFutureCoupletfor7",
+		"audioResponse": ["ShowFutureCoupletfor7"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowThriveCoupletfor7",
+		"ttsResponse": ["ShowThriveCoupletfor7"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowThriveCoupletfor7",
+		"audioResponse": ["ShowThriveCoupletfor7"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowSafenessCoupletfor7",
+		"ttsResponse": ["ShowSafenessCoupletfor7"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowSafenessCoupletfor7",
+		"audioResponse": ["ShowSafenessCoupletfor7"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowPromotionCoupletfor7",
+		"ttsResponse": ["ShowPromotionCoupletfor7"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowPromotionCoupletfor7",
+		"audioResponse": ["ShowPromotionCoupletfor7"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ShowBestCoupletfor7",
+		"ttsResponse": ["ShowBestCoupletfor7"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "ShowBestCoupletfor7",
+		"audioResponse": ["ShowBestCoupletfor7"],
+		"clientBehaviorDirectives": {
+			"followUp": true
+		}
+	}, {
+		"name": "ResponseForNTG6FU12",
+		"ttsResponse": ["ResponseForNTG6FU12"],
+		"dialogAct": {
+			"dialogActType": "giveInformation",
+			"slots": {}
+		},
+		"guiResponse": "",
+		"audioResponse": ["ResponseForNTG6FU12"]
+	}],
+	"apiActions": [{
+		"name": "collectwishkeys",
+		"path": "https://sds-nonprod.dvb.corpinter.net.cn/domains/sdp/dialogue_info",
+		"requiredAuthLevel": 0
+	}],
+	"domain": "SpringFestival"
+}

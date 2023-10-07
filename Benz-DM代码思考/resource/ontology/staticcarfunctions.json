@@ -1,0 +1,143 @@
+{
+    "domain": "staticcarfunctions",
+    "ontology": {
+        "apiInputs": {
+            "answer-id": {
+                "fromShared": [],
+                "resetOnInput": [],
+                "volatile": false
+            },
+            "application": {
+                "fromShared": [],
+                "resetOnInput": [],
+                "volatile": false
+            },
+            "carModel": {
+                "fromShared": [],
+                "resetOnInput": [],
+                "volatile": false
+            },
+            "market": {
+                "fromShared": [],
+                "resetOnInput": [],
+                "volatile": false
+            },
+            "ntgVersion": {
+                "fromShared": [],
+                "resetOnInput": [],
+                "volatile": false
+            },
+            "primaryFuelType": {
+                "fromShared": [],
+                "resetOnInput": [],
+                "volatile": false
+            },
+            "seatIdentifier": {
+                "fromShared": [],
+                "resetOnInput": [],
+                "volatile": false
+            },
+            "secondaryFuelType": {
+                "fromShared": [],
+                "resetOnInput": [],
+                "volatile": false
+            },
+            "select-answer": {
+                "fromShared": [],
+                "resetOnInput": [],
+                "volatile": false
+            }
+        },
+        "intents": {
+            "activate": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "carfunctionvariations": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "close": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "deactivate": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "fold": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "lock": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "open": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            }
+        },
+        "userInputs": {
+            "feature": {
+                "resetOnInput": [],
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "activeBlindSpotAssist": [],
+                    "activeBrakeAssist": [],
+                    "activeLaneKeepingAssist": [],
+                    "antiLockBrakingSystem": [],
+                    "antiTheftAlarmSystem": [],
+                    "attentionAssist": [],
+                    "automaticDrivingLights": [],
+                    "carWashMode": [],
+                    "centralLockingSystem": [],
+                    "cruiseControl": [],
+                    "daytimeRunningLight": [],
+                    "displayCleaningMode": [],
+                    "distronic": [],
+                    "dsr": [],
+                    "ecoStartStop": [],
+                    "electronicStabilityProgram": [],
+                    "fogLamp": [],
+                    "hazardWarningLamps": [],
+                    "highBeamHeadlamps": [],
+                    "lowBeamHeadlamps": [],
+                    "parkingAssistantParktronic": [],
+                    "parkingLight": [],
+                    "rearFogLamp": [],
+                    "standingLight": [],
+                    "steeringAssist": [],
+                    "trafficSignAssist": [],
+                    "windshieldWipers": [],
+                    "windshieldWipersRear": []
+                },
+                "volatile": false
+            },
+            "slotFold": {
+                "resetOnInput": [],
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "exteriorMirrors": [],
+                    "headRestraints": [],
+                    "trailerCoupling": []
+                },
+                "volatile": false
+            },
+            "topic": {
+                "resetOnInput": [],
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "bonnet": [],
+                    "doors": [],
+                    "fuelTankFlap": [],
+                    "trunk": []
+                },
+                "volatile": false
+            }
+        }
+    }
+}

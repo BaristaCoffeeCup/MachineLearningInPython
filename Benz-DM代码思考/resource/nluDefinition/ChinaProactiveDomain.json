@@ -1,0 +1,71 @@
+{
+	"nluInterpretations": [{
+		"intent": "parkingrecommendation",
+		"samples": [{
+			"sample": "Parking recommendation yes GUID is $(parking_yes_guid) no GUID is $(parking_no_guid)",
+			"sampleValues": [{
+				"slotName": "parking_yes_guid",
+				"sample": "yes_GUId"
+			}, {
+				"slotName": "parking_no_guid",
+				"sample": "no_GUID"
+			}]
+		}],
+		"expressions": []
+	}, {
+		"intent": "chargingrecommendation",
+		"samples": [{
+			"sample": "Charging recommendation yes GUID is $(charging_yes_guid) no GUID is $(charging_no_guid)",
+			"sampleValues": [{
+				"slotName": "charging_yes_guid",
+				"sample": "charging_yes_guid"
+			}, {
+				"slotName": "charging_no_guid",
+				"sample": "charging_no_guid"
+			}]
+		}],
+		"expressions": []
+	}, {
+		"intent": "betterrouterecommendation",
+		"samples": [{
+			"sample": "Better route recommendation yes GUID is $(betterroute_yes_guid) no GUID is $(betterroute_no_guid)",
+			"sampleValues": [{
+				"slotName": "betterroute_yes_guid",
+				"sample": "betterroute_yes_guid"
+			}, {
+				"slotName": "betterroute_no_guid",
+				"sample": "betterroute_no_guid"
+			}]
+		}],
+		"expressions": []
+	}],
+	"userInputs": [{
+		"name": "confirmparking",
+		"canonicals": []
+	}, {
+		"name": "parking_yes_guid",
+		"canonicals": []
+	}, {
+		"name": "parking_no_guid",
+		"canonicals": []
+	}, {
+		"name": "confirmcharging",
+		"canonicals": []
+	}, {
+		"name": "charging_yes_guid",
+		"canonicals": []
+	}, {
+		"name": "charging_no_guid",
+		"canonicals": []
+	}, {
+		"name": "confirmbetterroute",
+		"canonicals": []
+	}, {
+		"name": "betterroute_yes_guid",
+		"canonicals": []
+	}, {
+		"name": "betterroute_no_guid",
+		"canonicals": []
+	}],
+	"domain": "ChinaProactiveDomain"
+}

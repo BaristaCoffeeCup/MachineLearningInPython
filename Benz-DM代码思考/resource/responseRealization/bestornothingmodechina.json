@@ -1,0 +1,14 @@
+{
+	"ttsResponses": {
+		"ttsresponse": ["好的"],
+		"ttsresponseforbackseats": ["请在前排体验此功能"]
+	},
+	"audioResponses": {},
+	"guiResponses": {},
+	"language": "cmn-CHN",
+	"additionalResponses": {
+		"voice": {},
+		"text": {}
+	},
+	"domain": "bestornothingmodechina"
+}

@@ -1,0 +1,815 @@
+{
+    "domain": "expMe",
+    "ontology": {
+        "apiInputs": {
+            "answer-id": {
+                "shared": false,
+                "volatile": false
+            },
+            "response-type": {
+                "shared": false,
+                "volatile": false
+            },
+            "select-answer": {
+                "shared": false,
+                "volatile": false
+            },
+            "status": {
+                "shared": false,
+                "volatile": false
+            }
+        },
+        "intents": {
+            "acceleration_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "chargingTypeSupported": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "clock_instrConfigure": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "def": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "drivePilot_IsOff": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "drivePilot_IsOn": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "drivePilot_available": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "drivePilot_rules": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "drivePilot_statuslight": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "drivePilot_troubleshoot": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "drivePilot_when": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "engineLight_checkReason": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "evChargingCable_instrPlugIn": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "evChargingCable_instrUnplug": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "evChargingPlugs_which": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "evChargingStandards_which": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "evChargingStation_instrAccess": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "evChargingStation_which": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "evCharging_howTo": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "evCharging_instrStart": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "evCharging_instrStop": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "exists": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "exteriorMirrors_instrFold": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "fuelTankFlap_loc": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "fuelTankVolume_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "fuelType_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "height_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "horn_instrActivate": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrAccess": {
+                "comments": "Don't add utterances here. We need this intent for ENG. Only evChargingStation_instrAccess as flat-intent in DEU.",
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrActivate": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrAuthorise": {
+                "comments": "Only needed for ENG",
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrCharge": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrClose": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrConfigure": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrConnect": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrDeactivate": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrDisconnect": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrEinstellen": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrOpen": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "instrUse": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "ladenHowto": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "length_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "linguatronic_help": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "loc": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "maxHorsepower_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "maxSpeed_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "model_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "payload_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "plugTypeSupported": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "radio_troubleshoot": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "steckerSupported": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "tirePressure_info": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "trailerCoupling_instrExtendRetract": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "troubleshoot": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "weight_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "which": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            },
+            "width_carspec": {
+                "dialogActType": "inform",
+                "slotOnly": false
+            }
+        },
+        "userInputs": {
+            "battery": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "battery": []
+                },
+                "volatile": false
+            },
+            "can_you": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "canyou": []
+                },
+                "volatile": false
+            },
+            "car": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "car": []
+                },
+                "volatile": false
+            },
+            "car_poss": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "car_poss": []
+                },
+                "volatile": false
+            },
+            "colour": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "red": [],
+                    "turquise": [],
+                    "white": [],
+                    "yellow": []
+                },
+                "volatile": false
+            },
+            "definite": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "definite": []
+                },
+                "volatile": false
+            },
+            "drivePilot": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "drivePilot": []
+                },
+                "volatile": false
+            },
+            "evtopic": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "evChargingAC": [],
+                    "evChargingChademo": [],
+                    "evChargingDC": [],
+                    "evChargingPlugType1": [],
+                    "evChargingPlugType2": [],
+                    "evChargingPlugTypeCCS": [],
+                    "evChargingPlugTypeChademo": [],
+                    "evChargingPlugTypeGBT": [],
+                    "evChargingPlugTypeHousehold": [],
+                    "evChargingQuick": [],
+                    "evChargingStation": [],
+                    "evChargingStationHome": [],
+                    "evChargingStationIonity": [],
+                    "evChargingStationThirdParty": [],
+                    "evChargingStationWallbox": []
+                },
+                "volatile": false
+            },
+            "fuel": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "fuel": []
+                },
+                "volatile": false
+            },
+            "fueltank": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "fueltank": []
+                },
+                "volatile": false
+            },
+            "headphones": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "androidAuto": [],
+                    "appleCarPlay": [],
+                    "bluetooth": [],
+                    "bluetoothAudio": [],
+                    "connectInternet": [],
+                    "headphones": []
+                },
+                "volatile": false
+            },
+            "help": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "helpme": []
+                },
+                "volatile": false
+            },
+            "inThisCar": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "inThisCar": []
+                },
+                "volatile": false
+            },
+            "indef": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "indef": []
+                },
+                "volatile": false
+            },
+            "inquiry_mc": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "doyouknow": [],
+                    "tellme": []
+                },
+                "volatile": false
+            },
+            "modal": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "modal": []
+                },
+                "volatile": false
+            },
+            "preposition": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "prep": []
+                },
+                "volatile": false
+            },
+            "pronoun": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "pronoun": []
+                },
+                "volatile": false
+            },
+            "steering": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "steering": []
+                },
+                "volatile": false
+            },
+            "telephone": {
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "phone": []
+                },
+                "volatile": false
+            },
+            "topic": {
+                "comments": "Don't add \"time\" to topic. It will mess with \"What is the time\"",
+                "shared": false,
+                "type": "StaticList",
+                "valueType": "String",
+                "values": {
+                    "360DegreeCamera": [],
+                    "4DSoundDeepMassage": [],
+                    "4matic": [],
+                    "aBSLamp": [],
+                    "activatingMassage": [],
+                    "activeBlindSpotAssist": [],
+                    "activeBlindSpotAssistWarningLamp": [],
+                    "activeBlindSpotAssistWarningSound": [],
+                    "activeBodyControl": [],
+                    "activeBrakeAssist": [],
+                    "activeLaneChangeAssist": [],
+                    "activeLaneKeepingAssist": [],
+                    "activeWorkout": [],
+                    "adBlue": [],
+                    "adaptiveHighBeamAssist": [],
+                    "adsPlus": [],
+                    "airBodyControl": [],
+                    "airDehumidification": [],
+                    "airDistribution": [],
+                    "airRecirculation": [],
+                    "airmatic": [],
+                    "ambientLight": [],
+                    "amgDriftMode": [],
+                    "amgRaceStart": [],
+                    "amgTrackPace": [],
+                    "androidAuto": [],
+                    "antiLockBrakingSystem": [],
+                    "antiTheftAlarmSystem": [],
+                    "appleCarPlay": [],
+                    "ashtrays": [],
+                    "assistanceGraphic": [],
+                    "assystPlus": [],
+                    "attachTrailer": [],
+                    "attentionAssist": [],
+                    "audioFormats": [],
+                    "audioPlayer": [],
+                    "automaticClimateControl": [],
+                    "automaticDrivingLights": [],
+                    "automaticMeasuresAfterAccident": [],
+                    "automaticTransmission": [],
+                    "autonomousDriving": [],
+                    "auxiliaryHeating": [],
+                    "batteryCondition": [],
+                    "biodynamicLight": [],
+                    "blinkingLightUICM": [],
+                    "bluetooth": [],
+                    "bluetoothAudio": [],
+                    "bluetoothConnectivity": [],
+                    "bonnet": [],
+                    "brake": [],
+                    "brakeAssist": [],
+                    "brakeAssistPlus": [],
+                    "brakeLamp": [],
+                    "calfMassage": [],
+                    "carWashMode": [],
+                    "carWashingTips": [],
+                    "centralDisplay": [],
+                    "changeLanguage": [],
+                    "chargePhone": [],
+                    "checkEngineLamp": [],
+                    "childInCar": [],
+                    "childProofLocks": [],
+                    "cigaretteLighter": [],
+                    "cityAgility": [],
+                    "classicMassage": [],
+                    "climateControl": [],
+                    "climateControlFunctions": [],
+                    "clock": [],
+                    "combinationSwitch": [],
+                    "comfortAssistant": [],
+                    "comfortAssistants": [],
+                    "comfortFunctions": [],
+                    "communicationFunctions": [],
+                    "connectInternet": [],
+                    "coolantWarningLamp": [],
+                    "coolbox": [],
+                    "corneringLightFunction": [],
+                    "crossTrafficAlert": [],
+                    "crosswindAssist": [],
+                    "cruiseControl": [],
+                    "cruiseControlLever": [],
+                    "cupHolders": [],
+                    "digitalOperatorsManual": [],
+                    "directSelect": [],
+                    "displayMessage": [],
+                    "displayMessageMemory": [],
+                    "distanceWarningLamp": [],
+                    "distronic": [],
+                    "doors": [],
+                    "driveAwayAssist": [],
+                    "drivePilot": [],
+                    "driveProgramComfort": [],
+                    "driveProgramCurve": [],
+                    "driveProgramEconomy": [],
+                    "driveProgramElectric": [],
+                    "driveProgramIndividual": [],
+                    "driveProgramOffroad": [],
+                    "driveProgramOffroadPlus": [],
+                    "driveProgramRace": [],
+                    "driveProgramRock": [],
+                    "driveProgramSand": [],
+                    "driveProgramSnow": [],
+                    "driveProgramSport": [],
+                    "driveProgramSportPlus": [],
+                    "driveProgramTrail": [],
+                    "drivePrograms": [],
+                    "drivingAssistancePlus": [],
+                    "drivingAssistants": [],
+                    "drivingDisplay": [],
+                    "drivingFunction": [],
+                    "dsr": [],
+                    "dvdPlayer": [],
+                    "dynamicSeat": [],
+                    "eSPLamp": [],
+                    "eSPOffLamp": [],
+                    "easyEntryExit": [],
+                    "easyPackTrunkBox": [],
+                    "ecoDisplay": [],
+                    "ecoStartStop": [],
+                    "electricParkingBrake": [],
+                    "electronicBrakeForceDistribution": [],
+                    "electronicStabilityProgram": [],
+                    "electronics": [],
+                    "emergencyAssistant": [],
+                    "emergencyCallSystem": [],
+                    "emergencyFunction": [],
+                    "emergencyOverview": [],
+                    "engineCompartment": [],
+                    "evCharging": [],
+                    "evChargingAC": [],
+                    "evChargingCable": [],
+                    "evChargingChademo": [],
+                    "evChargingDC": [],
+                    "evChargingEco": [],
+                    "evChargingLocationBased": [],
+                    "evChargingPlugType1": [],
+                    "evChargingPlugType2": [],
+                    "evChargingPlugTypeCCS": [],
+                    "evChargingPlugTypeChademo": [],
+                    "evChargingPlugTypeGBT": [],
+                    "evChargingPlugTypeHousehold": [],
+                    "evChargingPlugs": [],
+                    "evChargingProgram": [],
+                    "evChargingProgramDefault": [],
+                    "evChargingProgramHome": [],
+                    "evChargingProgramWork": [],
+                    "evChargingQuick": [],
+                    "evChargingStandards": [],
+                    "evChargingStation": [],
+                    "evChargingStationHome": [],
+                    "evChargingStationIonity": [],
+                    "evChargingStationThirdParty": [],
+                    "evChargingStationWallbox": [],
+                    "evChargingStatus": [],
+                    "evSocket": [],
+                    "evSocketFlap": [],
+                    "explorationMode": [],
+                    "exteriorLightEffects": [],
+                    "exteriorLighting": [],
+                    "exteriorMirrors": [],
+                    "externalStowage": [],
+                    "eyeglassesCompartment": [],
+                    "fanDistribution": [],
+                    "fingerprintSensor": [],
+                    "fireExtinguisher": [],
+                    "firstAidKit": [],
+                    "foreignStations": [],
+                    "forwardCrossingAssist": [],
+                    "frontFogLamp": [],
+                    "fuel": [],
+                    "fuelLevel": [],
+                    "fuelTankCap": [],
+                    "fuelTankFlap": [],
+                    "gPSBasedActivation": [],
+                    "garageDoorOpener": [],
+                    "gearshift": [],
+                    "gestureControl": [],
+                    "gloveBox": [],
+                    "handbrakeLampRed": [],
+                    "handbrakeLampYellow": [],
+                    "hazardWarningLamps": [],
+                    "headRestraints": [],
+                    "headUpDisplay": [],
+                    "headlamps": [],
+                    "headphones": [],
+                    "hepaFilter": [],
+                    "highBeamHeadlamps": [],
+                    "highBeamHeadlampsLamp": [],
+                    "highwayChauffeur": [],
+                    "hillStartAssist": [],
+                    "holdFunction": [],
+                    "horn": [],
+                    "hotRelaxingMassage": [],
+                    "immobilizer": [],
+                    "innovationFeatures": [],
+                    "instrumentCluster": [],
+                    "instrumentClusterLighting": [],
+                    "intelligentDrive": [],
+                    "interiorLightFunctions": [],
+                    "internalStowage": [],
+                    "internalStowageFront": [],
+                    "internalStowageRear": [],
+                    "internetRadio": [],
+                    "ionisation": [],
+                    "key": [],
+                    "keyAcousticConfirm": [],
+                    "keylessGo": [],
+                    "lightSwitch": [],
+                    "limiter": [],
+                    "linguatronic": [],
+                    "liveTraffic": [],
+                    "lockVehicle": [],
+                    "lowBeamHeadlamps": [],
+                    "lowBeamHeadlampsLamp": [],
+                    "lowTirePressureLamp": [],
+                    "lumbarPad": [],
+                    "magicBodyControl": [],
+                    "magicSkyControl": [],
+                    "magicVisionControl": [],
+                    "maintenanceDisplays": [],
+                    "maintenanceFunctions": [],
+                    "maneuveringEmergencyBrake": [],
+                    "manoeuvringAssistant": [],
+                    "manoeuvringAssistent": [],
+                    "manual": [],
+                    "massages": [],
+                    "mbux": [],
+                    "mbuxInterieurAssistant": [],
+                    "mbuxProfile": [],
+                    "menuFavorites": [],
+                    "mercedesMe": [],
+                    "mercedesMeCharge": [],
+                    "miscFAQ": [],
+                    "mobilizingMassage": [],
+                    "multimediaFunction": [],
+                    "navigationDisplay": [],
+                    "navigationFunction": [],
+                    "navigationSystem": [],
+                    "neckHeating": [],
+                    "nightViewAssist": [],
+                    "nightViewAssistPlus": [],
+                    "oilLevel": [],
+                    "onBoardComputer": [],
+                    "onboarding": [],
+                    "outsideTemperature": [],
+                    "paddleShifters": [],
+                    "pairPhone": [],
+                    "pairPhoneAndroid": [],
+                    "pairPhoneIOS": [],
+                    "pairPhoneNFC": [],
+                    "panicAlarm": [],
+                    "parkingAssistant": [],
+                    "parkingAssistantActive": [],
+                    "parkingAssistantMemory": [],
+                    "parkingAssistantParktronic": [],
+                    "parkingAssistantRemote": [],
+                    "parkingDisplay": [],
+                    "parkingLamps": [],
+                    "parkingLampsLamp": [],
+                    "passengerAirbag": [],
+                    "passengerAirbagLamp": [],
+                    "perceptualCirculation": [],
+                    "perfumeAtomizer": [],
+                    "petsInCar": [],
+                    "phoneCall": [],
+                    "plugAndCharge": [],
+                    "pluginHybrid": [],
+                    "powerSockets": [],
+                    "powerSteeringWarningLamp": [],
+                    "preSafe": [],
+                    "radio": [],
+                    "radioProgram": [],
+                    "range": [],
+                    "readingLight": [],
+                    "rearDoorsComfort": [],
+                    "rearFogLamp": [],
+                    "rearViewCamera": [],
+                    "rearViewMirror": [],
+                    "rearWindowHeating": [],
+                    "repairMaintainCar": [],
+                    "reserveFuelLamp": [],
+                    "residualHeat": [],
+                    "restraintSystemLamp": [],
+                    "roadNoiseCancellation": [],
+                    "roadSurfaceScan": [],
+                    "roadsideAssistance": [],
+                    "roofCarrier": [],
+                    "safetyAssistant": [],
+                    "safetyDisplay": [],
+                    "safetyVest": [],
+                    "sdCardSlot": [],
+                    "seatComfortFunction": [],
+                    "seatHeating": [],
+                    "seatKinetics": [],
+                    "seatVentilation": [],
+                    "seatbeltLamp": [],
+                    "seats": [],
+                    "securityAssistant": [],
+                    "shoulderPads": [],
+                    "sidePads": [],
+                    "sideRestPads": [],
+                    "spareWheel": [],
+                    "speedometer": [],
+                    "spotlightFunction": [],
+                    "standingLights": [],
+                    "startEngine": [],
+                    "status": [],
+                    "steerControl": [],
+                    "steeringAssist": [],
+                    "steeringWheel": [],
+                    "steeringWheelButtons": [],
+                    "steeringWheelHeater": [],
+                    "sunVisors": [],
+                    "sunblinds": [],
+                    "sunroof": [],
+                    "systemSelfTest": [],
+                    "temperature": [],
+                    "tirePressure": [],
+                    "tirePressureTable": [],
+                    "tirefit": [],
+                    "touchPad": [],
+                    "trafficSignAssist": [],
+                    "trailerCoupling": [],
+                    "transmissionDrive": [],
+                    "transmissionNeutral": [],
+                    "transmissionPark": [],
+                    "transmissionReverse": [],
+                    "tripInformation": [],
+                    "trunk": [],
+                    "tubeStructuredAirBag": [],
+                    "tunnelFunction": [],
+                    "turnSignal": [],
+                    "turnSignalLampLeft": [],
+                    "turnSignalLampRight": [],
+                    "usbSlot": [],
+                    "vehicleLevel": [],
+                    "volume": [],
+                    "volumeReceptionTransmission": [],
+                    "volumeRingtone": [],
+                    "warningDisplay": [],
+                    "warningTriangle": [],
+                    "windowDefroster": [],
+                    "windows": [],
+                    "windshieldHeating": [],
+                    "windshieldWipers": [],
+                    "windshieldWipersRear": []
+                },
+                "volatile": false
+            }
+        }
+    }
+}

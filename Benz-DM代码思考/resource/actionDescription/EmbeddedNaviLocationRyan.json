@@ -1,0 +1,46 @@
+{
+    "domain": "EmbeddedNaviLocationRyan",
+    "systemActions": [
+        {
+            "dialogAct": {
+                "dialogActType": "giveInformation"
+            },
+            "name": "test",
+            "ttsResponse": [
+                "test",
+                "navi_route_preference_set_VP_CONCEPT"
+            ]
+        },
+        {
+            "dialogAct": {
+                "dialogActType": "giveInformation"
+            },
+            "name": "28change",
+            "ttsResponse": [
+                "28change",
+                "info_navi_guidance_not_active_VP_CONCEPT",
+                "phone_codriver_error_can_do_only_from_driver_seat_VP_CONCEPT",
+                "info_navi_ADR_on_VP_PROMPT_CONCEPT",
+                "airscarf_vehicle__status_nok_VP_CONCEPT",
+                "energizing_comfort_not_available_in_vehicle_VP_CONCEPT",
+                "energizing_comfort_requirements_for_program_no_available_VP_CONCEPT",
+                "energizing_seat_kinetics_vehicle__status_nok_VP_CONCEPT",
+                "instrument_cluster_3D_not_available_CONCEPT",
+                "seat_heating_vehicle__status_nok_VP_CONCEPT",
+                "sync__not_avail_in_vehicle_CONCEPT",
+                "info_SNA_status_nok_VP_CONCEPT",
+                "head_up_display_vehicle__status_nok_VP_CONCEPT",
+                "parking_assist__not_avail_in_vehicle_CONCEPT",
+                "reading_light__not_avail_in_vehicle_CONCEPT",
+                "scent__not_avail_in_vehicle_CONCEPT",
+                "ionization__not_avail_in_vehicle_CONCEPT",
+                "navi_info_map_not_available_VP_CONCEPT",
+                "info_vehiclefunctions_ev_departure_time_full_memory_error_VP_CONCEPT",
+                "ambient_light_vehicle_nr_out_of_range__status_nok_VP_CONCEPT",
+                "info_tv_preset_memory_full_VP_CONCEPT",
+                "info_adb_contact_relation_storage_full_VP_CONCEPT",
+                "info_navi_all_destinations_set_VP_CONCEPT"
+            ]
+        }
+    ]
+}

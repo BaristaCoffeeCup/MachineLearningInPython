@@ -1,0 +1,9 @@
+{
+	"arbitration": {
+		"close": "cloud",
+		"open": "cloud",
+		"": "cloud",
+		"extendedCarFunction": "cloud"
+	},
+	"domain": "ntgsixcarfunctions"
+}
